@@ -1,0 +1,55 @@
+name: Build /public and deploy to gh-pages with docker container
+
+on:
+  push:
+    branches:
+      - master
+      - main
+      - gh-pages
+  
+  # this is for manual triggering of the workflow
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+    
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: install dependencies
+        run: python -m pip install --upgrade pip setuptools
+
+      # build data dir
+      - name: install python requirements
+        run: pip install -r requirements.txt
+
+      - name: build the data dir
+        run: python xml2ttl.py
+
+      - name: make .env.production file
+        run: echo "BASEURL=/${{ github.event.repository.name }}" > .env.production
+
+      - name: build public dir with docker image
+        run: docker run -v $(pwd)/public:/app/public -v $(pwd)/data:/app/data -v $(pwd)/.env.production:/app/.env.production skohub/skohub-vocabs-docker:latest
+
+      # this creates the gh-pages branch, because publish_branch default value = 'gh-pages'
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
