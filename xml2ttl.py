@@ -85,7 +85,7 @@ def buildGraph(cs):
         g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
         
         for md in metadata:
-            g.add((base_url, SKOS.scopeNote, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
+            g.add((base_url, DCTERMS.decription, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
         
         g.add((base_url, SKOS.relatedMatch, Literal("https://huaning-yang.github.io/test-repo-core/index.de.html", lang="de")))
 
@@ -95,7 +95,6 @@ def buildGraph(cs):
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
-            g.add((concept_url, SKOS.scopeNote, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
         g.add((base_url, SKOS.hasTopConcept, concept_url))
