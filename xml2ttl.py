@@ -85,8 +85,8 @@ def buildGraph(cs):
         g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
         
         for md in metadata:
-            g.add((base_url, DCTERMS.decription, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
-        
+            g.add((base_url, DCTERMS.hasPart, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
+            g.add((base_url, DCTERMS.identifier, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
         g.add((base_url, SKOS.relatedMatch, Literal("https://huaning-yang.github.io/test-repo-core/index.de.html", lang="de")))
 
     for concept in concepts:
