@@ -49,8 +49,11 @@ def parseXml():
 
         metadata = item.find("MDDefMetadata")
         md = []
-        for m in metadata:
-            md.append(getMetaData(m))
+        if(metadata is not None):
+            for m in metadata:
+                #get metadata
+                # <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+                md.append(getMetaData(m))
         # get values
         # <Value id="1"><Label xml:lang="de">K1</Label><Description xml:lang="de">Mathematisch argumentieren</Description></Value>
         conceptScheme = SchemeData(_id, label, definition)
@@ -82,7 +85,7 @@ def buildGraph(cs):
         g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
         
         for md in metadata:
-            g.add((base_url, SKOS.definition, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
+            g.add((base_url, SKOS.scopeNote, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
         
         g.add((base_url, SKOS.relatedMatch, Literal("https://huaning-yang.github.io/test-repo-core/index.de.html", lang="de")))
 
