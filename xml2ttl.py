@@ -95,9 +95,11 @@ def buildGraph(cs):
         concept_url = base_url + concept.id
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
-        related = []
+        related = "Folgende Metadaten sind bekannt: \n"
+        i = 0
         for md in metadata:
-            g.add((concept_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+            related = related + "https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+        g.add((concept_url, SKOS.note, Literal(related)))      
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
         # add topConceptOf
