@@ -11,8 +11,10 @@
       Allgemeine Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">K1</Label><Description xml:lang="de">Mathematisch argumentieren</Description></Value>
     <Value id="2"><Label xml:lang="de">K2</Label><Description xml:lang="de">Probleme mathematisch lösen</Description></Value>
@@ -27,8 +29,9 @@
       Allgemeine Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">0</Label><Description xml:lang="de">Grundlegende Fertigkeiten</Description></Value>
     <Value id="2"><Label xml:lang="de">1</Label><Description xml:lang="de">Problemlösen</Description></Value>
@@ -58,8 +61,9 @@
       Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1</Label><Description xml:lang="de">Zahlen und Operationen</Description></Value>
     <Value id="2"><Label xml:lang="de">1.1</Label><Description xml:lang="de">Zahldarstellungen und Zahlbeziehungen verstehen</Description></Value>
@@ -133,8 +137,10 @@
       Inhaltsbezogene Kompetenzbereiche (Leitideen) im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">Zahl (L1)</Label></Value>
     <Value id="2"><Label xml:lang="de">Messen (L2)</Label></Value>
@@ -148,8 +154,10 @@
       Inhaltsbezogene Kompetenzbereiche (Leitideen) im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1. Zahlen und Operationen</Label></Value>
     <Value id="2"><Label xml:lang="de">2. Raum und Form</Label></Value>
@@ -163,8 +171,10 @@
       Anforderungsbereiche im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label><Description xml:lang="de">Reproduzieren</Description></Value>
     <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
@@ -176,8 +186,10 @@
       Anforderungsbereiche im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label><Description xml:lang="de">Reproduzieren</Description></Value>
     <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
@@ -189,8 +201,10 @@
       Kompetenzstufen im Fach Mathematik für den Primarbereich (2017)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label></Value>
     <Value id="2"><Label xml:lang="de">II</Label></Value>
@@ -204,8 +218,10 @@
       Kompetenzstufen im Fach Mathematik für den Hauptschulabschluss und Mittleren Schulabschluss (2013)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I.a</Label></Value>
     <Value id="2"><Label xml:lang="de">I.b</Label></Value>
@@ -220,8 +236,9 @@
       Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">4</MD>
     </MDDefMetadata>
     <Value id="78"><Label xml:lang="de">1</Label><Description xml:lang="de">Zahl</Description></Value>
     <Value id="1"><Label xml:lang="de">1.01</Label><Description xml:lang="de">Zahlvorstellungen</Description></Value>
@@ -309,7 +326,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1. Sprechen und Zuhören</Label></Value>
     <Value id="2"><Label xml:lang="de">2. Schreiben</Label></Value>
@@ -324,7 +343,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">Zuhören</Label></Value>
     <Value id="2"><Label xml:lang="de">Schreiben</Label></Value>
@@ -339,7 +360,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1</Label><Description xml:lang="de">Sprechen und Zuhören</Description></Value>
     <Value id="2"><Label xml:lang="de">1.1</Label><Description xml:lang="de">Gespräche führen</Description></Value>
@@ -453,7 +476,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1</Label><Description xml:lang="de">Sprechen und Zuhören</Description></Value>
     <Value id="2"><Label xml:lang="de">1.1</Label><Description xml:lang="de">zu anderen sprechen</Description></Value>
@@ -603,7 +628,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label><Description xml:lang="de">Wiedergeben</Description></Value>
     <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
@@ -616,7 +643,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label></Value>
     <Value id="2"><Label xml:lang="de">II</Label></Value>
@@ -629,7 +658,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">1</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label></Value>
     <Value id="2"><Label xml:lang="de">II</Label></Value>
@@ -644,7 +675,9 @@
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">1</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">I</Label></Value>
     <Value id="2"><Label xml:lang="de">II</Label></Value>
@@ -658,8 +691,9 @@
       Kompetenzstufen im Fach Englisch für den Hauptschulabschluss und Mittleren Schulabschluss für die Kompetenzbereiche Hörverstehen und Leseverstehen (2014)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">2</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">A1.1</Label></Value>
     <Value id="2"><Label xml:lang="de">A1.2</Label></Value>
@@ -677,8 +711,11 @@
       Kompetenzbereiche Erste Fremdsprache für den Hauptschulabschluss und Mittleren Schulabschluss
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">4 6</MD>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">2</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">3</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">Leseverstehen</Label></Value>
     <Value id="2"><Label xml:lang="de">Hörverstehen</Label></Value>
@@ -691,8 +728,9 @@
       Kompetenzstufen im Fach Französisch für den Mittleren Schulabschluss für die Kompetenzbereiche Hörverstehen und Leseverstehen (2009)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">6</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">2</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="3">3</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">A1</Label></Value>
     <Value id="3"><Label xml:lang="de">A2.1</Label></Value>

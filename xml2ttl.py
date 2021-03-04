@@ -95,9 +95,11 @@ def buildGraph(cs):
         concept_url = base_url + concept.id
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
-        related = 'Folgende Metadaten sind bekannt: <br> Das ist ein test'
-        #for md in metadata:
-         #   related = related + "https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + " <br>"
+        related = 'Folgende Metadaten sind bekannt: '
+        for md in metadata:
+            related = related + "https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "  "
+            g.add((concept_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+            g.add((concept_url, SKOS.relatedMatch, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
         g.add((concept_url, SKOS.note, Literal(related)))      
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
