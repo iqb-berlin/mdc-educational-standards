@@ -97,7 +97,7 @@ def buildGraph(cs):
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
         for md in metadata:
             g.add((concept_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
-            g.add((concept_url, SKOS.related, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+            g.add((concept_url, SKOS.relatedMatch, Literal(URIRef("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value))))
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
         # add topConceptOf
