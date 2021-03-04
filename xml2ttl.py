@@ -99,7 +99,7 @@ def buildGraph(cs):
         for md in metadata:
             related = related + "https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "  "
             g.add((concept_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
-            g.add((concept_url, SKOS.relatedMatch, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+            g.add((concept_url, SKOS.broadMatch, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
         g.add((concept_url, SKOS.note, Literal(related)))      
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
