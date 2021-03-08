@@ -77,28 +77,20 @@ def buildGraph(cs):
 
     g = Graph()
     base_url = URIRef("http://example.org/iqb/cs_" + conceptScheme.id + "/")
-    test = ""
+    metadataString = ""
     for md in metadata:
         if md.d == "1":
-            test += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
         elif md.d == "2":
-            test += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
         else:
-            test += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
 
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
     if conceptScheme.definition:
-        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" "Folgende Metadaten über die Definitionen sind gegeben" + "\n" + test, lang=conceptScheme.definition.lang)))
-        """
-        for md in metadata:
-            g.add((base_url, DCTERMS.description, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value, lang="de")))
-            """
-        """
-        for md in metadata:
-            g.add((base_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
-        """
+        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" + "Folgende Metadaten über die Definitionen sind gegeben" + "\n" + metadataString, lang=conceptScheme.definition.lang)))
         
     for concept in concepts:
         concept_url = base_url + concept.id
@@ -117,7 +109,9 @@ def buildGraph(cs):
     g.bind("skos", SKOS)
     g.bind("dct", DCTERMS)
 
-    outfile_path = output_folder / ("iqb_cs" + conceptScheme.id + ".ttl")
+    paddedID = conceptScheme.id.zfill(3)
+
+    outfile_path = output_folder / ("iqb_cs" + paddedID + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
 
 
