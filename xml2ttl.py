@@ -4,7 +4,7 @@ from lxml import etree
 from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import DCTERMS, RDF, SKOS
 from pathlib import Path
-import os
+import os, sys
 
 ConceptScheme = namedtuple("ConceptScheme", ["conceptScheme", "concepts", "metadata"])
 SchemeData = namedtuple("SchemeData", ["id", "label", "definition"])
