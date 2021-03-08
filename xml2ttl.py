@@ -83,22 +83,22 @@ def buildGraph(cs):
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
     if conceptScheme.definition:
         g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
+
+        for md in metadata:
+            g.add((base_url, DCTERMS.description, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value, lang="de")))
         """
         for md in metadata:
-            g.add((base_url, DCTERMS.hasPart, Literal("cat: " + md.cat + " Def:" + md.d + " Value:" + md.value, lang="de")))
-            g.add((base_url, DCTERMS.identifier, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+            g.add((base_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
         """
         
-    
-
     for concept in concepts:
         concept_url = base_url + concept.id
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
-        for md in metadata:
-            g.add((concept_url, SKOS.note, Literal("https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value)))
+    
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
+            
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
         g.add((base_url, SKOS.hasTopConcept, concept_url))
@@ -110,6 +110,9 @@ def buildGraph(cs):
 
     outfile_path = output_folder / ("iqb_cs" + conceptScheme.id + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
+
+
+    
 
 conceptSchemes = parseXml()
 
