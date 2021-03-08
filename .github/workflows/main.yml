@@ -39,7 +39,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: build the data dir
-        run: python xml2ttl.py
+        run: python xml2ttl.py mdc-educational-standards.xml
 
       - name: make .env.production file
         run: echo "BASEURL=/${{ github.event.repository.name }}" > .env.production

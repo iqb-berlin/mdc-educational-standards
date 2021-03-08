@@ -11,10 +11,10 @@ SchemeData = namedtuple("SchemeData", ["id", "label", "definition"])
 LangString = namedtuple("LangString", ["value", "lang"])
 MetaString = namedtuple("MetaString",["cat", "d", "value"])
 
-xml_file = [f for f in os.listdir('.') if f.endswith('.xml')]
-if(len(xml_file) != 1):
-    raise ValueError("There should be exactly one xml file in the directory")
-filename = xml_file[0]
+if len(sys.argv) > 1 and str(sys.argv[1]) == "help":
+  exit("Please add an input xml file to the command line")
+
+input_file =  sys.argv[1]
 
 output_folder = Path("./data")
 if not output_folder.exists():
@@ -35,7 +35,7 @@ def getMetaData(entry):
         return MetaString(cat,d, value)
 
 def parseXml():
-    tree = etree.parse(filename)
+    tree = etree.parse(input_file)
     md_lists = tree.xpath("//MDDef")
 
     conceptSchemes = []
@@ -80,14 +80,16 @@ def buildGraph(cs):
     metadataString = ""
     for md in metadata:
         if md.d == "1":
-            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
-            metadataString += "\n"
+            #Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_001/001
+            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d.zfill(3) + "/" + md.value.zfill(3) + "\n"
         elif md.d == "2":
-            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
-            metadataString += "\n"
+            #Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_002/004
+            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d.zfill(3) + "/" + md.value.zfill(3) + "\n"
+        elif md.d == "3":
+            #Fach: https://w3id.org/iqb/mdc-core/cs_003/004
+            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d.zfill(3) + "/" + md.value.zfill(3) + "\n"
         else:
-            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
-            metadataString += "\n"
+            continue
 
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
@@ -102,6 +104,7 @@ def buildGraph(cs):
     
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
+    
             
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
