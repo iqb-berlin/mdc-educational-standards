@@ -80,20 +80,20 @@ def buildGraph(cs):
     metadataString = ""
     for md in metadata:
         if md.d == "1":
-            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
         elif md.d == "2":
-            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
         else:
-            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d +"/" + md.value + "\n"
+            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
 
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
     if conceptScheme.definition:
-        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" + "Folgende Metadaten über die Definitionen sind gegeben" + "\n" + metadataString, lang=conceptScheme.definition.lang)))
+        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" + "Folgende Metadaten über die Definitionen sind gegeben \n" + metadataString, lang=conceptScheme.definition.lang)))
         
     for concept in concepts:
-        concept_url = base_url + concept.id
+        concept_url = base_url + concept.id.zfill(3)
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
     
@@ -109,9 +109,7 @@ def buildGraph(cs):
     g.bind("skos", SKOS)
     g.bind("dct", DCTERMS)
 
-    paddedID = conceptScheme.id.zfill(3)
-
-    outfile_path = output_folder / ("iqb_cs" + paddedID + ".ttl")
+    outfile_path = output_folder / ("iqb_cs" + conceptScheme.id.zfill(3) + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
 
 
