@@ -76,15 +76,18 @@ def buildGraph(cs):
     metadata = cs.metadata
 
     g = Graph()
-    base_url = URIRef("http://example.org/iqb/cs_" + conceptScheme.id + "/")
+    base_url = URIRef("http://example.org/iqb/cs_" + conceptScheme.id.zfill(3) + "/")
     metadataString = ""
     for md in metadata:
         if md.d == "1":
-            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
+            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
         elif md.d == "2":
-            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
+            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
         else:
-            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + " \n"
+            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
 
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
