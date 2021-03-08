@@ -80,11 +80,14 @@ def buildGraph(cs):
     metadataString = ""
     for md in metadata:
         if md.d == "1":
-            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + "\n"
+            metadataString += "Bildungsniveau: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
         elif md.d == "2":
-            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + "\n"
+            metadataString += "Gültigkeitsbereich: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
         else:
-            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value + "\n"
+            metadataString += "Fach: https://w3id.org/iqb/mdc-core/cs_" + md.d + "/" + md.value
+            metadataString += "\n"
 
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
@@ -99,9 +102,6 @@ def buildGraph(cs):
     
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
-            g.add((concept_url, SKOS.note, Literal("This is just a test", lang=concept.definition.lang)))
-            g.add((concept_url, SKOS.scopeNote, Literal("This is just a test2", lang=concept.definition.lang)))
-            g.add((concept_url, SKOS.scopeNote, Literal("This is just a test3", lang=concept.definition.lang)))
             
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
