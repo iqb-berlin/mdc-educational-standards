@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.M.1"
   },
+  "definition": {
+    "de": "HSA: mit Nachschlagewerken umgehen können,// MSA: Nachschlagewerke zur Klärung von Fachbegriffen, Fremdwörtern und Sachfragen heranziehen,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

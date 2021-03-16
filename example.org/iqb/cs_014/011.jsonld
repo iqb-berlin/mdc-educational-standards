@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "1.2.3"
   },
+  "definition": {
+    "de": "HSA: Kurzvorträge/Referate mit Hilfe eines Stichwortzettels/einer Gliederung halten: z.B. von einem Praktikum berichten, über einen Arbeitsplatz informieren, ein Buch/einen Film vorstellen,// MSA: Kurzdarstellungen und Referate frei vortragen: ggf. mit Hi"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

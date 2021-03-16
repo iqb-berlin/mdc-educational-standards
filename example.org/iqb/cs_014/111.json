@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.5.5"
   },
+  "definition": {
+    "de": "HSA: Lebenswirklichkeit von Realitätsdarstellungen und der Darstellung fiktionaler Welten in Medien unterscheiden,// MSA: zwischen eigentlicher Wirklichkeit und virtuellen Welten in Medien unterscheiden: z.B. Fernsehserien, Computerspiele,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

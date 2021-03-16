@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.4.2"
   },
+  "definition": {
+    "de": "nur MSA: ein breites Spektrum auch längerer und komplexerer Texte verstehen und im Detail erfassen,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

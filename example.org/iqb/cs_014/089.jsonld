@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.3.3"
   },
+  "definition": {
+    "de": "HSA: an einem repräsentativen Beispiel Zusammenhänge zwischen Text, Entstehungszeit und Leben des Autors/der Autorin herstellen,// MSA: Zusammenhänge zwischen Text, Entstehungszeit und Leben des Autors/ der Autorin bei der Arbeit an Texten aus Gegenwart u"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

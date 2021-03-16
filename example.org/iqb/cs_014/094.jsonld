@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.3.8"
   },
+  "definition": {
+    "de": "HSA: eigene Deutungen des Textes entwickeln, mit anderen darüber sprechen und am Text belegen.// MSA: eigene Deutungen des Textes entwickeln, am Text belegen und sich mit anderen darüber verständigen,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

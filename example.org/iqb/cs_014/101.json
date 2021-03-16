@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.4.3"
   },
+  "definition": {
+    "de": "HSA: Informationen zielgerichtet entnehmen, ordnen, prüfen und ergänzen,// MSA: Informationen zielgerichtet entnehmen, ordnen, vergleichen, prüfen und ergänzen,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "3.3.9"
   },
+  "definition": {
+    "de": "HSA: untersuchende (s.u.) Methoden kennen und anwenden: z.B. Texte vergleichen,// MSA: analytische Methoden anwenden: z.B. Texte untersuchen, vergleichen, kommentieren,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

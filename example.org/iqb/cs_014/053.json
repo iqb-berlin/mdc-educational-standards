@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "2.3.8"
   },
+  "definition": {
+    "de": "HSA: wesentliche Gestaltungsmittel untersuchen und darstellen,// MSA: - formale und sprachlich stilistische Gestaltungsmittel und ihre Wirkungsweise an Beispielen darstellen, - Textdeutungen begründen, - sprachliche Bilder deuten,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

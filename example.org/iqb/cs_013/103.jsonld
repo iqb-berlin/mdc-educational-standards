@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "5.1.e"
   },
+  "definition": {
+    "de": "Rechtschreibhilfen verwenden / Wörterbuch nutzen/Rechtschreibhilfen des Computers kritisch nutzen"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {

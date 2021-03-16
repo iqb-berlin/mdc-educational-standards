@@ -6,9 +6,25 @@
   "prefLabel": {
     "de": "4.1.6"
   },
+  "definition": {
+    "de": "HSA: Sprechweisen unterscheiden und ihre Wirkung einschätzen: z.B. abwertend, gehoben,// MSA: Sprechweisen unterscheiden und beachten: z.B. gehoben, derb; abwertend, ironisch,"
+  },
   "relatedMatch": [
     {
-      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test2"
+    }
+  ],
+  "broadMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/test3"
     }
   ],
   "inScheme": {
