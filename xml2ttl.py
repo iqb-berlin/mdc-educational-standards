@@ -11,7 +11,7 @@ SchemeData = namedtuple("SchemeData", ["id", "label", "definition"])
 LangString = namedtuple("LangString", ["value", "lang"])
 MetaString = namedtuple("MetaString",["cat", "d", "value"])
 
-core = Namespace('https://w3id.org/iqb/mdc-core/cs_')
+core = Namespace('https://w3id.org/iqb/mdc-core/')
 
 if len(sys.argv) > 1 and str(sys.argv[1]) == "help":
   exit("Please add an input xml file to the command line")
@@ -106,13 +106,13 @@ def buildGraph(cs):
 
         metadatastring2 = ""
         for md in metadata:
-            metadatastring2 = md.d.zfill(3) + md.value.zfill(3)
-            u = URIRef(metadatastring2)
-            g.add((concept_url, SKOS.relatedMatch, core.test))
+            metadatastring2 = "cs" + md.d.zfill(3) + md.value.zfill(3)
+            g.add((concept_url, SKOS.relatedMatch, core.cs_001))
+            g.add((concept_url, SKOS.relatedMatch, core.test2))
+            g.add((concept_url, SKOS.exactMatch, core.test3))
+            g.add((concept_url, SKOS.broadMatch, core.cs_001))
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
-            g.add((concept_url, SKOS.definition, Literal("second value", datatype=XSD.string)))
-            g.add((concept_url, SKOS.definition, Literal("something else", lang=concept.definition.lang)))
     
             
         # add topConceptOf
