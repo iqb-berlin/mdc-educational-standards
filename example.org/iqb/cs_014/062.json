@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.4.2"
   },
-  "definition": {
-    "de": "HSA: Verfahren zur Überprüfung der sprachlichen Richtigkeit kennen und nutzen.// MSA: Strategien zur Überprüfung der sprachlichen Richtigkeit und Rechtschreibung anwenden."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

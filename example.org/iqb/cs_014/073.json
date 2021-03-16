@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.5.2"
   },
-  "definition": {
-    "de": "HSA: häufig vorkommende Wörter - auch wichtige Fachbegriffe und Fremdwörter - richtig schreiben,// MSA: häufig vorkommende Wörter, Fachbegriffe und Fremdwörter richtig schreiben,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

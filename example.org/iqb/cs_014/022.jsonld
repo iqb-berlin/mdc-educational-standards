@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.4.2"
   },
-  "definition": {
-    "de": "HSA: wesentliche Informationen verstehen, wiedergeben und kritisch hinterfragen,// MSA: wesentliche Aussagen aus umfangreichen gesprochenen Texten verstehen, diese Informationen sichern und wiedergeben,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

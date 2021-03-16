@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.3"
   },
-  "definition": {
-    "de": "HSA: grundlegende Schreibfunktionen umsetzen: erzählen, berichten, informieren, beschreiben, appellieren, argumentieren,// MSA: zentrale Schreibformen beherrschen und sachgerecht nutzen: informierende(berichten, beschreiben, schildern), argumentierende (e"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.1"
   },
-  "definition": {
-    "de": "mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_002/",
     "title": {

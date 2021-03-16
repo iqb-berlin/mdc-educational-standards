@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.03m"
   },
-  "definition": {
-    "de": "Zahlbereichserweiterungen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_010/",
     "title": {

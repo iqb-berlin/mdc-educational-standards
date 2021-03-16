@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.1.3"
   },
-  "definition": {
-    "de": "HSA: verschiedene Formen mündlicher Darstellung unterscheiden und anwenden: erzählen, berichten, informieren, beschreiben, appellieren, argumentieren,// MSA: verschiedene Formen mündlicher Darstellung unterscheiden und anwenden, insbesondere erzählen, ber"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

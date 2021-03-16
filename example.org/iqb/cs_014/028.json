@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.M.2"
   },
-  "definition": {
-    "de": "nur MSA: Gesprächsformen moderieren, leiten, beobachten, reflektieren,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

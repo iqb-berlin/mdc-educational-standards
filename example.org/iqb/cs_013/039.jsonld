@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.b"
   },
-  "definition": {
-    "de": "sprachliche und gestalterische Mittel und Ideen sammeln: Wörter und Wortfelder, Formulierungen und Textmodelle"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

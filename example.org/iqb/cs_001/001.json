@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "K1"
   },
-  "definition": {
-    "de": "Mathematisch argumentieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_001/",
     "title": {

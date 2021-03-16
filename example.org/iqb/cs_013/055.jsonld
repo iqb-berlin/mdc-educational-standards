@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.2.b"
   },
-  "definition": {
-    "de": "Erzähltexte, lyrische und szenische Texte kennen und unterscheiden"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

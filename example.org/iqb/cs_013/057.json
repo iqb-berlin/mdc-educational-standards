@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.2.d"
   },
-  "definition": {
-    "de": "Texte begründet auswählen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

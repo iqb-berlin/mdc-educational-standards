@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.3.3"
   },
-  "definition": {
-    "de": "Gesprächsregeln einhalten,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

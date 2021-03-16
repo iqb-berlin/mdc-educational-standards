@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.1.c"
   },
-  "definition": {
-    "de": "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

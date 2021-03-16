@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "5.2"
   },
-  "definition": {
-    "de": "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

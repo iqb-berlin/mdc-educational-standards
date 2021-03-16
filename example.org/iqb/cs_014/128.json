@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.1.7"
   },
-  "definition": {
-    "de": "HSA: Unterschiede und Gemeinsamkeiten verschiedener Sprachen wahrnehmen.// MSA: Mehrsprachigkeit (Schülerinnen und Schüler mit anderer Muttersprache und Fremdsprachenlernen) zur Entwicklung der Sprachbewusstheit und zum Sprachvergleich nutzen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

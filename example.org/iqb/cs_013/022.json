@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.5.c"
   },
-  "definition": {
-    "de": "Begründungen und Erklärungen geben"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "0"
   },
-  "definition": {
-    "de": "Grundlegende Fertigkeiten"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_002/",
     "title": {

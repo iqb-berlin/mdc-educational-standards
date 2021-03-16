@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.4.a"
   },
-  "definition": {
-    "de": "selbstgewählte Texte zum Vorlesen vorbereiten und sinngestaltend vorlesen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

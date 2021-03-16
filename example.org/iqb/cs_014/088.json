@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.2"
   },
-  "definition": {
-    "de": "HSA: epische, lyrische, dramatische Texte unterscheiden und wesentliche Merkmale kennen, insbesondere epische Kleinformen, Erzählung, Kurzgeschichte, Gedichte,// MSA: epische, lyrische, dramatische Texte unterscheiden, insbesondere epische Kleinformen, No"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

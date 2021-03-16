@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.2.d"
   },
-  "definition": {
-    "de": "die Textproduktion und das Textverständnis durch die Anwendung von sprachlichen Operationen unterstützen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

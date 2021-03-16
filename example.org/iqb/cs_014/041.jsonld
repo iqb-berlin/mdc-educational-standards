@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.2.1"
   },
-  "definition": {
-    "de": "nur HSA: den Schreibauftrag verstehen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

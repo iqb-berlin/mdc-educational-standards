@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.5.3"
   },
-  "definition": {
-    "de": "HSA: Intentionen und Wirkungen ausgewählter Medieninhalte erkennen und bewerten: z. B. Fernsehserie,// MSA: Intentionen und Wirkungen erkennen und bewerten,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

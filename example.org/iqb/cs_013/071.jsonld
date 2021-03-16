@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.i"
   },
-  "definition": {
-    "de": "bei der Beschäftigung mit literarischen Texten Sensibilität und Verständnis für Gedanken und Gefühle und zwischenmenschliche Beziehungen zeigen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

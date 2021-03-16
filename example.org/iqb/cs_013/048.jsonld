@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.5.d"
   },
-  "definition": {
-    "de": "Texte für die Veröffentlichung aufbereiten und dabei auch die Schrift gestalten"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

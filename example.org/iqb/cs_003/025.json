@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.2"
   },
-  "definition": {
-    "de": "geometrische Figuren erkennen, benennen und darstellen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.3.a"
   },
-  "definition": {
-    "de": "Deutsch - Fremdsprache, Dialekt - Standardsprache; Deutsch - Muttersprachen der Kinder mit Migrationshintergrund; Deutsch - Nachbarsprachen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

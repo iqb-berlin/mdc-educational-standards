@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.M.5"
   },
-  "definition": {
-    "de": "nur MSA: Einhaltung orthografischer und grammatischer Normen kontrollieren,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

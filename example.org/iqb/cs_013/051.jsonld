@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.1.a"
   },
-  "definition": {
-    "de": "altersgemäße Texte sinnverstehend lesen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

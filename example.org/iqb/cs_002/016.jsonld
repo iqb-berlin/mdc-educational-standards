@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.2"
   },
-  "definition": {
-    "de": "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_002/",
     "title": {

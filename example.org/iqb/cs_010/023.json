@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.04h"
   },
-  "definition": {
-    "de": "Flächeninhalt, Umfang"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_010/",
     "title": {

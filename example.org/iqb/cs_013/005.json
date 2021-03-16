@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.1.c"
   },
-  "definition": {
-    "de": "Anliegen und Konflikte gemeinsam mit anderen diskutieren und klären"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

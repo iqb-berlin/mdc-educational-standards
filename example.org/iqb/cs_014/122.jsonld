@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.1.1"
   },
-  "definition": {
-    "de": "HSA: beim Sprachhandeln die Inhalts- und Beziehungsebene unterscheiden,// MSA: beim Sprachhandeln die Inhalts- und Beziehungsebene im Zusammenhang mit den Grundfaktoren sprachlicher Kommunikation erkennen und berücksichtigen: "
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

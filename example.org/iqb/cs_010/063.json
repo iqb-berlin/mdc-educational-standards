@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.11m"
   },
-  "definition": {
-    "de": "Sinusfunktion"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_010/",
     "title": {

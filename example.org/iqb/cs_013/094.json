@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.3.b"
   },
-  "definition": {
-    "de": "gebräuchliche Fremdwörter untersuchen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

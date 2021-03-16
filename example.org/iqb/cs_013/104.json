@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "5.1.f"
   },
-  "definition": {
-    "de": "Arbeitstechniken nutzen: methodisch sinnvoll abschreiben/Übungsformen selbstständig nutzen/Texte auf orthographische Richtigkeit überprüfen und korrigieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

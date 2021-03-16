@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.2.g"
   },
-  "definition": {
-    "de": "Informationen in Druck und - wenn vorhanden - elektronischen Medien suchen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

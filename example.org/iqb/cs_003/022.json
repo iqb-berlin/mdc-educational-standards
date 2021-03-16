@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.1.a"
   },
-  "definition": {
-    "de": "über räumliches Vorstellungsvermögen verfügen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

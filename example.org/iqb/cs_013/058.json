@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.2.e"
   },
-  "definition": {
-    "de": "sich in einer Bücherei orientieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

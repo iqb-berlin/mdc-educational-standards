@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.4.b"
   },
-  "definition": {
-    "de": "Lernergebnisse geordnet festhalten und auch für eine Veröffentlichung verwenden"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

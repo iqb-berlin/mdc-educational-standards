@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.4.c"
   },
-  "definition": {
-    "de": "ein Kinderbuch selbst auswählen und vorstellen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

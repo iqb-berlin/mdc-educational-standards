@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.1.2"
   },
-  "definition": {
-    "de": "HSA: Bedingungen und Regeln für kommunikative Situationen im Alltag kennen,// MSA: gelingende bzw. misslingende Kommunikation; öffentliche bzw. private Kommunikationssituationen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

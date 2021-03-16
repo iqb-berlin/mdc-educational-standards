@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.5.c"
   },
-  "definition": {
-    "de": "Texte in Bezug auf die äußere und sprachliche Gestaltung und auf die sprachliche Richtigkeit hin optimieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

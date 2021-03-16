@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.4.6"
   },
-  "definition": {
-    "de": "aus Sach- und Gebrauchstexten begründete Schlussfolgerungen ziehen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

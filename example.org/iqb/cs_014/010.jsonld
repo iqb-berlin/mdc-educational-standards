@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.2.2"
   },
-  "definition": {
-    "de": "HSA: freie Redebeiträge leisten,// MSA: längere freie Redebeiträge leisten, "
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

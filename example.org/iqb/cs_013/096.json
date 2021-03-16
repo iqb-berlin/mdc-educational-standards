@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.4.a"
   },
-  "definition": {
-    "de": "Buchstabe, Laut, Selbstlaut, Mitlaut, Umlaut, Silbe, Alphabet; Wortfamilie, Wortstamm, Wortbaustein; Wortfeld; Wortart; Nomen: Einzahl, Mehrzahl, Fall, Geschlecht; Verb: Grundform, gebeugte Form; Zeitformen: Gegenwart, Vergangenheitsformen; Artikel: bestimmter Artikel, unbestimmter Artikel; Adjektiv: Grundform, Vergleichsstufen; Pronomen; andere Wörter (alle hier nicht kategorisierten Wörter gehören zu dieser Restkategorie)"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

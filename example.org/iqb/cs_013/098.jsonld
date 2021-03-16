@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "5"
   },
-  "definition": {
-    "de": "Rechtschreibung"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

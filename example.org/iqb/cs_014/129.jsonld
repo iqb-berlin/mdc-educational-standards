@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.1.8"
   },
-  "definition": {
-    "de": "HSA: ausgewählte Beispiele fremdsprachlicher Einflüsse kennen und bewerten,// MSA: ausgewählte Erscheinungen des Sprachwandels kennen und bewerten: z.B. Bedeutungswandel, fremdsprachliche Einflüsse."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

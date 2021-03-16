@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3"
   },
-  "definition": {
-    "de": "Begründungen suchen und nachvollziehen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_002/",
     "title": {

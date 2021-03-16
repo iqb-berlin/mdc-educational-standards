@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "4.3"
   },
-  "definition": {
-    "de": "HSA: Leistungen von Sätzen und Wortarten kennen und für Sprechen und Schreiben nutzen// MSA: Leistungen von Sätzen und Wortarten kennen und für Sprechen, Schreiben und Textuntersuchung nutzen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

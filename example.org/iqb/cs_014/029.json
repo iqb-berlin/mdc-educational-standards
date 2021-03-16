@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.M.3"
   },
-  "definition": {
-    "de": "HSA: Redestrategien einsetzen: z.B. Anknüpfungen formulieren,// MSA: Redestrategien einsetzen: z.B. Fünfsatz, Anknüpfungen formulieren, rhetorische Mittel verwenden,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

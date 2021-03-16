@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.2.g"
   },
-  "definition": {
-    "de": "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

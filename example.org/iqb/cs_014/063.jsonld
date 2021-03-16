@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.M.1"
   },
-  "definition": {
-    "de": "HSA: Notizen machen, Stichpunkte sammeln und ordnen,// MSA: Informationen sammeln, ordnen, ergänzen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

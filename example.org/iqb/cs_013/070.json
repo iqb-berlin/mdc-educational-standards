@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.h"
   },
-  "definition": {
-    "de": "eigene Gedanken zu Texten entwickeln, zu Texten Stellung nehmen und mit anderen über Texte sprechen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

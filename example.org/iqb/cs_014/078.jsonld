@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.1.2"
   },
-  "definition": {
-    "de": "HSA: über grundlegende Lesefertigkeiten verfügen: flüssig, sinnbezogen, überfliegend, selektiv,// MSA: über grundlegende Lesefertigkeiten verfügen: flüssig, sinnbezogen, überfliegend, selektiv, navigierend (z.B. Bild-Ton-Text integrierend) lesen."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

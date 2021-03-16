@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.4.a"
   },
-  "definition": {
-    "de": "verständlich, strukturiert, adressaten- und funktionsgerecht schreiben: Erlebtes und Erfundenes; Gedanken und Gefühle; Bitten, Wünsche, Aufforderungen und Vereinbarungen; Erfahrungen und Sachverhalte"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

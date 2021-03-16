@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.5.2"
   },
-  "definition": {
-    "de": "Texte (medial unterschiedlich vermittelt) szenisch gestalten."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

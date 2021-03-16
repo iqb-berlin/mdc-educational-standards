@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.6"
   },
-  "definition": {
-    "de": "HSA: Inhalte verkürzt wiedergeben,// MSA: Inhalte auch längerer und komplexerer Texte verkürzt und abstrahierend wiedergeben,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

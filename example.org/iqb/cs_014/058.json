@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.13"
   },
-  "definition": {
-    "de": "nur MSA: sprachliche Mittel gezielt einsetzen: z.B. Vergleiche, Bilder, Wiederholung,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

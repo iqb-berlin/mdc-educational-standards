@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.11"
   },
-  "definition": {
-    "de": "HSA: begründet Stellung beziehen,// MSA: begründet Stellung nehmen, "
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

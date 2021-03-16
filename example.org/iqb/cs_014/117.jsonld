@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.M.4"
   },
-  "definition": {
-    "de": "HSA: Inhalte mit eigenen Worten zusammenfassend wiedergeben,// MSA: Inhalte mit eigenen Worten wiedergeben, Randbemerkungen setzen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

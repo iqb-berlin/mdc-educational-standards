@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.4"
   },
-  "definition": {
-    "de": "HSA: zentrale Aussagen erschließen,// MSA: zentrale Inhalte erschließen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

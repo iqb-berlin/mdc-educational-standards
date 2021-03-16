@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.6"
   },
-  "definition": {
-    "de": "HSA: wesentliche Fachbegriffe zur Erschließung von Literatur kennen und anwenden: Autor, Erzähler, Monolog, Dialog, Reim,// MSA: wesentliche Fachbegriffe zur Erschließung von Literatur kennen und anwenden, insbesondere Erzähler, Erzählperspektive, Monolog"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

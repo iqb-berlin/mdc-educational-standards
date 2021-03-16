@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.1"
   },
-  "definition": {
-    "de": "mathematische Aussagen hinterfragen und auf Korrektheit prüfen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_002/",
     "title": {

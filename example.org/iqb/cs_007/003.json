@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "III"
   },
-  "definition": {
-    "de": "Verallgemeinern und Reflektieren"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_007/",
     "title": {

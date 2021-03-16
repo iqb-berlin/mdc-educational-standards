@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.4.c"
   },
-  "definition": {
-    "de": "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

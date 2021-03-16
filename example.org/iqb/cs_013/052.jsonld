@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.1.b"
   },
-  "definition": {
-    "de": "lebendige Vorstellungen beim Lesen und Hören literarischer Texte entwickeln"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

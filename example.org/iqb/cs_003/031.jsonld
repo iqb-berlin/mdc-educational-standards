@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.a"
   },
-  "definition": {
-    "de": "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern)"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

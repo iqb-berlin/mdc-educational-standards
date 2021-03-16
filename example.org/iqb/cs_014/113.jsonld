@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.5.7"
   },
-  "definition": {
-    "de": "HSA: Medien für die eigene Produktion kreativ nutzen.// MSA: Medien zur Präsentation und ästhetischen Produktion nutzen."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

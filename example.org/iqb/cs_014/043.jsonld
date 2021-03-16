@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.2.3"
   },
-  "definition": {
-    "de": "HSA: Informationsquellen nutzen: z.B. Bibliotheken, Nachschlagewerke, Zeitungen, Internet,// MSA: Informationsquellen gezielt nutzen, insbesondere Bibliotheken, Nachschlagewerke, Zeitungen, Internet,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

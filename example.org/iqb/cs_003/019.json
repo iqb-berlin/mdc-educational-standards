@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.3.e"
   },
-  "definition": {
-    "de": "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "2. Schreiben"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_011/",
     "title": {

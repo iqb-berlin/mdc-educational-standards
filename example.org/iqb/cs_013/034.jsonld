@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.2.d"
   },
-  "definition": {
-    "de": "über Fehlersensibilität und Rechtschreibgespür verfügen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

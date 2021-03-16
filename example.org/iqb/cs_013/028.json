@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.1.b"
   },
-  "definition": {
-    "de": "Texte zweckmäßig und übersichtlich gestalten"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

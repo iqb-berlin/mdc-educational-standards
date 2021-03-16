@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.5.1"
   },
-  "definition": {
-    "de": "HSA: Informations- und Unterhaltungsfunktion unterscheiden: z.B. im Internet,// MSA: Informations- und Unterhaltungsfunktion unterscheiden,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

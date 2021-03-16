@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.7"
   },
-  "definition": {
-    "de": "HSA: wesentliche Informationen aus linearen und nichtlinearen Texten zusammenfassen,// MSA: Ergebnisse einer Textuntersuchung darstellen: z.B. - Informationen aus linearen und nichtlinearen Texten zusammenfassen und so wiedergeben, dass insgesamt eine koh"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

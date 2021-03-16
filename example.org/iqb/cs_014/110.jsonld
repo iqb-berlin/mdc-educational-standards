@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.5.4"
   },
-  "definition": {
-    "de": "HSA: wesentliche Darstellungsmittel eines Mediums und deren Wirkungen kennen und einschätzen,// MSA: wesentliche Darstellungsmittel kennen und deren Wirkungen einschätzen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

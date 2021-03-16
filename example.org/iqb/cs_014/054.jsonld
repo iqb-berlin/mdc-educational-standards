@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.3.9"
   },
-  "definition": {
-    "de": "HSA: Argumente finden und formulieren,// MSA: - Thesen formulieren, - Argumente zu einer Argumentationskette verknüpfen, - Gegenargumente formulieren, überdenken und einbeziehen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.M.4"
   },
-  "definition": {
-    "de": "HSA: Wesentliches notieren,// MSA: Notizen selbstständig strukturieren und Notizen zur Reproduktion des Gehörten nutzen, dabei sachlogische sprachliche Verknüpfungen herstellen, sich gezielt sachgerechte Stichwörter aufschreiben, eine Mitschrift anfertige"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

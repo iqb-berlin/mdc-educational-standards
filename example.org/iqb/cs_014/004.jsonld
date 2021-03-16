@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.1.2"
   },
-  "definition": {
-    "de": "HSA: über einen für die Bewältigung schulischer, beruflicher und gesellschaftlicher Sprechsituationen angemessenen Wortschatz verfügen,// MSA: über einen umfangreichen und differenzierten Wortschatz verfügen,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

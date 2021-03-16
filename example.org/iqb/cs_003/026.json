@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.2.a"
   },
-  "definition": {
-    "de": "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

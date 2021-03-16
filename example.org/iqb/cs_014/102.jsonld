@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.4.4"
   },
-  "definition": {
-    "de": "HSA: nichtlineare Texte (auch im Zusammenhang mit linearen Texten) auswerten: z.B. Schaubilder,// MSA: nichtlineare Texte auswerten: z.B. Schaubilder,"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.4.7"
   },
-  "definition": {
-    "de": "HSA: Information und Wertung in Texten unterscheiden: z.B. in Zeitungen.// MSA: Information und Wertung in Texten unterscheiden."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

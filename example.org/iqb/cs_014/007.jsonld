@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "1.1.5"
   },
-  "definition": {
-    "de": "HSA: Wirkungen der Redeweise kennen und beachten: Lautstärke, Betonung, Sprechtempo, Stimmführung, Körpersprache (Gestik/Mimik).// MSA: Wirkungen der Redeweise kennen, beachten und situations- sowie adressatengerecht anwenden: Lautstärke, Betonung, Sprech"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

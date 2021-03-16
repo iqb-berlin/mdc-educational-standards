@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "2.1.c"
   },
-  "definition": {
-    "de": "den PC - wenn vorhanden - zum Schreiben verwenden und für Textgestaltung nutzen"
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

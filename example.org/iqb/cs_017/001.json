@@ -6,6 +6,11 @@
   "prefLabel": {
     "de": "I"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_017/",
     "title": {

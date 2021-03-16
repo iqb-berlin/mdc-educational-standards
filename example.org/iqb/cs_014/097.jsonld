@@ -6,9 +6,11 @@
   "prefLabel": {
     "de": "3.3.11"
   },
-  "definition": {
-    "de": "HSA: Handlung und Verhaltensweisen beschreiben und werten.// MSA: Handlungen, Verhaltensweisen und Verhaltensmotive bewerten."
-  },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_test"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {
