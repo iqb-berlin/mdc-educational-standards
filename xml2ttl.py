@@ -2,7 +2,7 @@ from collections import namedtuple
 
 from lxml import etree
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import DCTERMS, RDF, SKOS
+from rdflib.namespace import DCTERMS, RDF, SKOS, XSD, NamespaceManager
 from pathlib import Path
 import os, sys
 
@@ -10,6 +10,8 @@ ConceptScheme = namedtuple("ConceptScheme", ["conceptScheme", "concepts", "metad
 SchemeData = namedtuple("SchemeData", ["id", "label", "definition"])
 LangString = namedtuple("LangString", ["value", "lang"])
 MetaString = namedtuple("MetaString",["cat", "d", "value"])
+
+core = Namespace('https://w3id.org/iqb/mdc-core/cs_')
 
 if len(sys.argv) > 1 and str(sys.argv[1]) == "help":
   exit("Please add an input xml file to the command line")
@@ -101,9 +103,16 @@ def buildGraph(cs):
         concept_url = base_url + concept.id.zfill(3)
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
-    
+
+        metadatastring2 = ""
+        for md in metadata:
+            metadatastring2 = md.d.zfill(3) + md.value.zfill(3)
+            u = URIRef(metadatastring2)
+            g.add((concept_url, SKOS.relatedMatch, core.test))
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
+            g.add((concept_url, SKOS.definition, Literal("second value", datatype=XSD.string)))
+            g.add((concept_url, SKOS.definition, Literal("something else", lang=concept.definition.lang)))
     
             
         # add topConceptOf
@@ -114,6 +123,8 @@ def buildGraph(cs):
     
     g.bind("skos", SKOS)
     g.bind("dct", DCTERMS)
+    g.bind("xsd", XSD)
+    g.bind("core", core)
 
     outfile_path = output_folder / ("iqb_cs" + conceptScheme.id.zfill(3) + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
