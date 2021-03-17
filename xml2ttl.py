@@ -97,12 +97,7 @@ def buildGraph(cs):
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
     if conceptScheme.definition:
-        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" + "Folgende Metadaten über die Definitionen sind gegeben \n" + metadataString, lang=conceptScheme.definition.lang)))
-        
-    for concept in concepts:
-        concept_url = base_url + concept.id.zfill(3)
-        g.add((concept_url, RDF.type, SKOS.Concept))
-        g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
+        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
 
         metadatastring2 = ""
         for md in metadata:
@@ -110,7 +105,14 @@ def buildGraph(cs):
             metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
             
             # goal: core:001001
-            g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+            g.add((base_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+        
+    for concept in concepts:
+        concept_url = base_url + concept.id.zfill(3)
+        g.add((concept_url, RDF.type, SKOS.Concept))
+        g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
+
+        
 
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
