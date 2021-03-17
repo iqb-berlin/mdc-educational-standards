@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: verschiedene Gesprächsformen praktizieren: z.B. Diskussion, Streitgespräch, Arbeitsgespräch,// MSA: verschiedene Gesprächsformen praktizieren, z.B. Dialoge, Streitgespräche, Diskussionen, Rollendiskussionen, Debatten vorbereiten und durchführen,"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

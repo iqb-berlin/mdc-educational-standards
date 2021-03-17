@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: verschiedene Textfunktionen und Textsorten unterscheiden: informieren (z.B. Lexikontext), appellieren (z.B. Werbetext), regulieren (z.B. Jugendschutzgesetz, Arbeitsvertrag), instruieren (z.B. Bedienungsanleitung),// MSA: verschiedene Textfunktionen u"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

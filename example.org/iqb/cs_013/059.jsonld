@@ -9,20 +9,6 @@
   "definition": {
     "de": "Angebote in Zeitungen und Zeitschriften, in Hörfunk und Fernsehen, auf Ton- und Bildträgern sowie im Netz kennen, nutzen und begründet auswählen"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

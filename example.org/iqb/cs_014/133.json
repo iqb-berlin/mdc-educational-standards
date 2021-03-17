@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: Leistungen von Sätzen und Wortarten kennen und für Sprechen und Schreiben nutzen// MSA: Leistungen von Sätzen und Wortarten kennen und für Sprechen, Schreiben und Textuntersuchung nutzen"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

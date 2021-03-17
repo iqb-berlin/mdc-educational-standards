@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: produktive Methoden kennen und anwenden:  weiterschreiben, Paralleltext verfassen, szenische Umsetzung, // MSA: produktive Methoden anwenden: z.B. Perspektivenwechsel: innerer Monolog, Brief in der Rolle einer literarischen Figur; szenische Umsetzung"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: ausgewählte Beispiele fremdsprachlicher Einflüsse kennen und bewerten,// MSA: ausgewählte Erscheinungen des Sprachwandels kennen und bewerten: z.B. Bedeutungswandel, fremdsprachliche Einflüsse."
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

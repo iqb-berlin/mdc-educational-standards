@@ -9,20 +9,6 @@
   "definition": {
     "de": "Deutsch - Fremdsprache, Dialekt - Standardsprache; Deutsch - Muttersprachen der Kinder mit Migrationshintergrund; Deutsch - Nachbarsprachen"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

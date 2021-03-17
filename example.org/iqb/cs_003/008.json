@@ -9,17 +9,6 @@
   "definition": {
     "de": "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

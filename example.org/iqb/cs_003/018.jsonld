@@ -9,17 +9,6 @@
   "definition": {
     "de": "Sachaufgaben systematisch variieren"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

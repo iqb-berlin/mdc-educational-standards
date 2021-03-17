@@ -6,17 +6,6 @@
   "prefLabel": {
     "de": "B2.1"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/003"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_021/",
     "title": {

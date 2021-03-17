@@ -9,17 +9,6 @@
   "definition": {
     "de": "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_003/",
     "title": {

@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: Verfahren der Fehlerkontrolle: z.B. Nachschlagetechniken, gliederndes Mitsprechen. die Klang-, Weglass-, Umstell-, Ersatzprobe anwenden, // MSA: Rechtschreibstrategien anwenden: z.B. Ableitung vom Wortstamm, Wortverlängerung, Ähnlichkeitsschreibung, "
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

@@ -9,17 +9,6 @@
   "definition": {
     "de": "Satzanwendung"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/004"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_010/",
     "title": {

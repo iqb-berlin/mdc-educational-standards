@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: Informationen zu einem Thema/Problem in unterschiedlichen Medien suchen, vergleichen, auswählen und bewerten,// MSA: Informationsmöglichkeiten nutzen: z.B. Informationen zu einem Thema/ Problem in unterschiedlichen Medien suchen, vergleichen, auswähl"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

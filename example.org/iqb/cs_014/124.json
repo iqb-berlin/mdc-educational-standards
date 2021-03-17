@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: grundlegende Textfunktionen erfassen: Information (z.B. Zeitungsmeldung), Appell (z.B. Werbeanzeige), Kontakt (z.B. Bewerbung, Beschwerde); ästhetische Funktion (z.B. Gedicht),// MSA: grundlegende Textfunktionen erfassen, insbesondere Information (z."
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

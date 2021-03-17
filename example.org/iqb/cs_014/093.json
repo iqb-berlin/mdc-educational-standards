@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: grundlegende Gestaltungsmittel erkennen und ihre Wirkungen einschätzen: z.B. Wortwahl, Wiederholung, sprachliche Bilder,// MSA: sprachliche Gestaltungsmittel in ihren Wirkungszusammenhängen und in ihrer historischen Bedingtheit erkennen: z.B. Wort-, "
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

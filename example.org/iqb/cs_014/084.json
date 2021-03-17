@@ -9,20 +9,6 @@
   "definition": {
     "de": "HSA: Verfahren zur Textstrukturierung kennen und nutzen: Inhalte zusammenfassen, Zwischenüberschriften formulieren, wesentliche Textstellen kennzeichnen, Bezüge zwischen Textstellen herstellen, Fragen aus dem Text ableiten und beantworten,// MSA: Verfahre"
   },
-  "relatedMatch": [
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
-    },
-    {
-      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
-    }
-  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {
