@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: Informationen zielgerichtet entnehmen, ordnen, prüfen und ergänzen,// MSA: Informationen zielgerichtet entnehmen, ordnen, vergleichen, prüfen und ergänzen,"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

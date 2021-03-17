@@ -9,6 +9,20 @@
   "definition": {
     "de": "handelnd mit Texten umgehen: z. B. illustrieren, inszenieren, umgestalten, collagieren"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/001"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_013/",
     "title": {

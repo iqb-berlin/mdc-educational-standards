@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: Stoffsammlung erstellen, Informationen ordnen: z.B. Mindmap.// MSA: Stoffsammlung erstellen, ordnen und eine Gliederung anfertigen: z.B. numerische Gliederung, Cluster, Ideenstern, Mindmap, Flussdiagramm."
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

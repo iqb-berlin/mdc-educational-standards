@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: sich in unterschiedlichen Sprechsituationen sach- und situationsgerecht verhalten: Vorstellungsgespräch/Bewerbungsgespräch, Antragstellung, Bitte, Aufforderung, Beschwerde, Entschuldigung, Dank,// MSA: unterschiedliche Sprechsituationen gestalten, in"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

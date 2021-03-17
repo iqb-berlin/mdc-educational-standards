@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: sprachliche Mittel zur Sicherung des Textzusammenhanges kennen und anwenden: - Wortebene (morphologische Mittel): Beziehungswörter (z.B. Konjunktion, Adverb, Pronomen), - Satzebene (syntaktische Mittel): Satzarten; Satzreihe, Satzgefüge, - Bedeutungs"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

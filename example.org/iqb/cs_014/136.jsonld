@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: grammatische Kategorien in situativen und funktionalen Zusammenhängen verwenden: z.B. Tempus, Aktiv/Passiv; Genus, Numerus, Kasus; Steigerung,// MSA: grammatische Kategorien und ihre Leistungen in situativen und funktionalen Zusammenhängen kennen und"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {

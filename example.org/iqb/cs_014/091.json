@@ -9,6 +9,20 @@
   "definition": {
     "de": "HSA: wesentliche Elemente eines Textes erfassen: Figuren, Raum- und Zeitdarstellung, Konfliktverlauf,// MSA: wesentliche Elemente eines Textes erfassen: z.B. Figuren, Raum- und Zeitdarstellung, Konfliktverlauf,"
   },
+  "relatedMatch": [
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_001/002"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/004"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_002/011"
+    },
+    {
+      "id": "https://w3id.org/iqb/mdc-core/cs_003/001"
+    }
+  ],
   "inScheme": {
     "id": "http://example.org/iqb/cs_014/",
     "title": {
