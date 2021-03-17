@@ -116,7 +116,14 @@ def buildGraph(cs):
 
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
-    
+
+            metadatastring2 = ""
+            for md in metadata:
+                # example: 001001
+                metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
+                
+                # goal: core:001001
+                g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
             
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
