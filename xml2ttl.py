@@ -110,13 +110,14 @@ def buildGraph(cs):
                 metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
                 g.add((base_url, oeh_md.educationalContext, URIRef(core + metadatastring2)))
                 g.add((base_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
+                g.add((base_url, DCTERMS.educationalLevel, URIRef(core + metadatastring2)))
             elif(md.d == "3"):
                 metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
                 g.add((base_url, lrmi.teaches, URIRef(core + metadatastring2)))
             else:
                 pass
             
-            g.add((base_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+            g.add((base_url, DCTERMS.relation, URIRef(core + metadatastring2)))
             
         
     for concept in concepts:
