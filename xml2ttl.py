@@ -12,6 +12,7 @@ LangString = namedtuple("LangString", ["value", "lang"])
 MetaString = namedtuple("MetaString",["cat", "d", "value"])
 
 core = Namespace('https://w3id.org/iqb/mdc-core/cs_')
+lrmi = Namespace('http://purl.org/dcx/lrmi-terms/')
 
 if len(sys.argv) > 1 and str(sys.argv[1]) == "help":
   exit("Please add an input xml file to the command line")
@@ -106,24 +107,25 @@ def buildGraph(cs):
             
             # goal: core:001001
             g.add((base_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+            g.add((base_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
         
     for concept in concepts:
         concept_url = base_url + concept.id.zfill(3)
         g.add((concept_url, RDF.type, SKOS.Concept))
         g.add((concept_url, SKOS.prefLabel, Literal(concept.label.value, lang=concept.label.lang)))
-
         
+        metadatastring2 = ""
+        for md in metadata:
+            # example: 001001
+            metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
+            
+            # goal: core:001001
+            g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
 
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
 
-            metadatastring2 = ""
-            for md in metadata:
-                # example: 001001
-                metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
-                
-                # goal: core:001001
-                g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+
             
         # add topConceptOf
         g.add((concept_url, SKOS.topConceptOf, base_url))
@@ -135,6 +137,7 @@ def buildGraph(cs):
     g.bind("dct", DCTERMS)
     g.bind("xsd", XSD)
     g.bind("core", core)
+    g.bind("lrmi", lrmi)
 
     outfile_path = output_folder / ("iqb_cs" + conceptScheme.id.zfill(3) + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
