@@ -80,7 +80,7 @@ def buildGraph(cs):
     metadata = cs.metadata
 
     g = Graph()
-    base_url = URIRef("http://example.org/iqb/cs_" + conceptScheme.id.zfill(3) + "/")
+    base_url = URIRef("https://w3id.org/iqb/mdc-educational/cs_" + conceptScheme.id.zfill(3) + "/")
     metadataString = ""
     for md in metadata:
         if md.d == "1":
@@ -99,7 +99,7 @@ def buildGraph(cs):
     g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
     if conceptScheme.definition:
-        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
+        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value + "\n" + metadataString, lang=conceptScheme.definition.lang)))
 
         metadatastring2 = ""
         for md in metadata:
@@ -117,7 +117,7 @@ def buildGraph(cs):
             else:
                 pass
             
-            g.add((base_url, DCTERMS.relation, URIRef(core + metadatastring2)))
+            g.add((base_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
             
         
     for concept in concepts:
@@ -142,6 +142,8 @@ def buildGraph(cs):
                 g.add((concept_url, lrmi.teaches, URIRef(core + metadatastring2)))
             else:
                 pass
+
+            g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
             
             # goal: core:001001
             
