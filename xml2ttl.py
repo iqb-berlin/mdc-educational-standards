@@ -13,6 +13,7 @@ MetaString = namedtuple("MetaString",["cat", "d", "value"])
 
 core = Namespace('https://w3id.org/iqb/mdc-core/cs_')
 lrmi = Namespace('http://purl.org/dcx/lrmi-terms/')
+oeh_md = Namespace('http://w3id.org/openeduhub/learning-resource-terms/')
 
 if len(sys.argv) > 1 and str(sys.argv[1]) == "help":
   exit("Please add an input xml file to the command line")
@@ -102,12 +103,21 @@ def buildGraph(cs):
 
         metadatastring2 = ""
         for md in metadata:
-            # example: 001001
+            # example: 001/001
             metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
+
+            if(md.d == "1"):
+                metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
+                g.add((base_url, oeh_md.educationalContext, URIRef(core + metadatastring2)))
+                g.add((base_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
+            elif(md.d == "3"):
+                metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
+                g.add((base_url, lrmi.teaches, URIRef(core + metadatastring2)))
+            else:
+                pass
             
-            # goal: core:001001
             g.add((base_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
-            g.add((base_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
+            
         
     for concept in concepts:
         concept_url = base_url + concept.id.zfill(3)
@@ -118,10 +128,22 @@ def buildGraph(cs):
         for md in metadata:
             # example: 001001
             metadatastring2 = md.d.zfill(3) + "/" +  md.value.zfill(3)
+
+            if(md.d == "1"):
+                metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
+                g.add((concept_url, oeh_md.educationalContext, URIRef(core + metadatastring2)))
+                g.add((concept_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
+            elif(md.d == "2"):
+                metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
+                g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+            elif(md.d == "3"):
+                metadataString =  md.d.zfill(3) + "/" + md.value.zfill(3)
+                g.add((concept_url, lrmi.teaches, URIRef(core + metadatastring2)))
+            else:
+                pass
             
             # goal: core:001001
-            g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
-            g.add((concept_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
+            
 
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
@@ -139,6 +161,7 @@ def buildGraph(cs):
     g.bind("xsd", XSD)
     g.bind("core", core)
     g.bind("lrmi", lrmi)
+    g.bind("oeh", oeh_md)
 
     outfile_path = output_folder / ("iqb_cs" + conceptScheme.id.zfill(3) + ".ttl")
     g.serialize(str(outfile_path), format="turtle", base=base_url, encoding="utf-8")
