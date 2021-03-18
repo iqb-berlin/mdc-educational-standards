@@ -121,6 +121,7 @@ def buildGraph(cs):
             
             # goal: core:001001
             g.add((concept_url, SKOS.relatedMatch, URIRef(core + metadatastring2)))
+            g.add((concept_url, lrmi.educationalLevel, URIRef(core + metadatastring2)))
 
         if concept.definition:
             g.add((concept_url, SKOS.definition, Literal(concept.definition.value, lang=concept.definition.lang)))
