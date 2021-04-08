@@ -77,11 +77,10 @@
                     }
                 }
             }
-        },
-        "required": [
-            "Label",
-            "Owner"
-        ]
-        
-    }
+        }
+    },
+    "required": [
+        "Label",
+        "Owner"
+    ]
 }
