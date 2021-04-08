@@ -1,0 +1,69 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example./schema.json",
+    "title": "Metadaten Profil Studie",
+    "description": "This is a JSON schema for describing a Study in the context of IQB",
+    "type": "object",
+    "properties": {
+        "Label": {
+            "description": "Label der Studie",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Description": {
+            "description": "Beschreibung der Studie",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Owner": {
+            "description": "Eigentümer der Studie",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "License": {
+            "description": "Benutzungslizenz der Studie",
+            "type": "string"
+        },
+
+        "Metadaten Definitionen": {
+            "description": "Contains the metadata definitions",
+            "type": "object",
+            "properties": {
+                "Auftraggeber/Mittelgeber": {
+                    "description": "Auftraggeber/Mittelgeber der Studie",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["Bundesministerium für Bildung und Forschung (BMBF)", "Deutsche Forschungsgemeinschaft (DFG)", "Kultusministerkonferenz (KMK)", "Senatsverwaltung für Bildung, Jugend und Sport des Landes Berlin", "Ministerium für Bildung, Wissenschaft, Jugend und Kultur des Landes Rheinland-Pfalz"]
+                    }
+                },
+                "Region": {
+                    "description": "Durchführungsort der Studie",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["Deutschlandweit", "Baden-Württemberg", "Bayern", "Berlin", "Brandenburg"]
+                    }
+                },
+                "Kontextfragebogen für Analyseeinheit": {
+                    "type": "array",
+                    "items" : {
+                        "type": "string",
+                        "enum": ["Auszubildende", "Behörden", "Berufsanfänger*innen","Betriebs","Eltern"]
+                    }
+                }
+            }
+        },
+        "required": [
+            "Label",
+            "Owner"
+        ]
+        
+    }
+}
