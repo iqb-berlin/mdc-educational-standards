@@ -32,7 +32,7 @@
         "License": {
             "title": "Lizenz",
             "description": "Benutzungslizenz der Studie",
-            "type": "string",
+            "type": "string"
         },
 
         "Metadaten Definitionen": {
