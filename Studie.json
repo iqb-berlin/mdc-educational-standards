@@ -5,36 +5,42 @@
     "description": "This is a JSON schema for describing a Study in the context of IQB",
     "type": "object",
     "properties": {
-        "Label": {
-            "title": "Label",
-            "description": "Label der Studie",
-            "type": "array",
-            "items": {
-                "type": "string"
+        "Allgemeine Informationen": {
+            "title": "Allgemeine Informationen",
+            "description": "Enthält allgemeine Informationen über die Ressource",
+            "type": "object",
+            "properties": {
+                "Label": {
+                    "title": "Label",
+                    "description": "Label der Studie",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Description": {
+                    "title": "Beschreibung",
+                    "description": "Beschreibung der Studie",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "Owner": {
+                    "title": "Eigentümer",
+                    "description": "Eigentümer der Studie",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "License": {
+                    "title": "Lizenz",
+                    "description": "Benutzungslizenz der Studie",
+                    "type": "string"
+                }
             }
         },
-        "Description": {
-            "title": "Beschreibung",
-            "description": "Beschreibung der Studie",
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "Owner": {
-            "title": "Eigentümer",
-            "description": "Eigentümer der Studie",
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "License": {
-            "title": "Lizenz",
-            "description": "Benutzungslizenz der Studie",
-            "type": "string"
-        },
-
         "Metadaten Definitionen": {
             "title": "Metadaten Definitionen",
             "description": "Contains the metadata definitions",
