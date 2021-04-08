@@ -27,7 +27,7 @@
                     }
                 },
                 "Owner": {
-                    "title": "Eigentümer",
+                    "title": "Owner",
                     "description": "Eigentümer der Studie",
                     "type": "array",
                     "items": {
