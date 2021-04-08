@@ -39,7 +39,11 @@
                     "description": "Benutzungslizenz der Studie",
                     "type": "string"
                 }
-            }
+            },
+            "required": [
+                "Label",
+                "Owner"
+            ]
         },
         "Metadaten Definitionen": {
             "title": "Metadaten Definitionen",
@@ -284,9 +288,6 @@
                 "Stichprobe"
             ]
         }
-    },
-    "required": [
-        "Label",
-        "Owner"
-    ]
+    }
+
 }
