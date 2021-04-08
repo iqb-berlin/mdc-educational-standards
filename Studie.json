@@ -270,15 +270,17 @@
                     "description": "Dokumentation zur Studie",
                     "type": "string"
                 }
-            }
+            },
+            "required": [
+                "Studienbeginn",
+                "Studienende",
+                "Testpopulation",
+                "Stichprobe"
+            ]
         }
     },
     "required": [
         "Label",
-        "Owner",
-        "Studienbeginn",
-        "Studienende",
-        "Testpopulation",
-        "Stichprobe"
+        "Owner"
     ]
 }
