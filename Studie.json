@@ -78,9 +78,5 @@
                 }
             }
         }
-    },
-    "required": [
-        "Label",
-        "Owner"
-    ]
+    }
 }
