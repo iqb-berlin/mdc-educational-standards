@@ -1,5 +1,5 @@
 {
-    "$id": "https://example.com/license.json",
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/license.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "License",
     "description": "Usage license",

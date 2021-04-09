@@ -1,5 +1,5 @@
 {
-    "$id": "https://example.com/description.json",
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/description.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Description",
     "description": "Description of a ressource",

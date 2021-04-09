@@ -1,5 +1,5 @@
 {
-    "$id": "https://example.com/owner.json",
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/owner.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Owner",
     "description": "Owner of a ressource",

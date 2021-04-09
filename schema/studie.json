@@ -1,5 +1,5 @@
 {
-    "$id": "https://example.com/studie.json",
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Studie",
     "description": "Studie is a type of ressource",

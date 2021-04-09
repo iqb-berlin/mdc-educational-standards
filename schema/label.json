@@ -1,5 +1,5 @@
 {
-    "$id": "https://example.com/label.json",
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/label.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Label",
     "description": "Label of a ressource",
