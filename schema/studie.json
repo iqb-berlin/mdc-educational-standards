@@ -127,13 +127,19 @@
             "title": "Studienbeginn",
             "description": "Startzeitpunkt der Studie",
             "type": "string",
-            "format": "date"
+            "format": "date",
+            "_display": {
+                "placeholder": "DD-MM-YYYY"
+            }
         },
         "Studienende": {
             "title": "Studienende",
             "description": "Endzeitpunkt der Studie",
             "type": "string",
-            "format": "date"
+            "format": "date",
+            "_display": {
+                "placeholder": "DD-MM-YYYY"
+            }
         },
         "Verwandete Studien": {
             "title": "Verwandte Studien",
@@ -146,12 +152,16 @@
         "Bericht zur Studie": {
             "title": "Bericht zur Studie",
             "description": "Abschließender Bericht zur Studie",
-            "type": "string"
+            "type": "string",
+            "_display": {
+                "rows": 7
+            }
         },
         "Link zur Studie": {
             "title": "Link zur Studie",
             "description": "Projekt-Webseite",
-            "type": "string"
+            "type": "string",
+            "format": "uri"
         },
         "Region sonstiges": {
             "title": "Region sonstiges",
@@ -233,7 +243,10 @@
         "Dokumentation": {
             "title": "Dokumentation",
             "description": "Dokumentation zur Studie",
-            "type": "string"
+            "type": "string",
+            "_display": {
+                "rows": 7
+            }
         }
     },
     "required": [

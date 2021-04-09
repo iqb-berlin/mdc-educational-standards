@@ -6,5 +6,9 @@
     "type": "array",
     "items": {
         "type": "string"
+    },
+    "_display": {
+        "rows": 5,
+        "placeholder": "A short text describing the ressource"
     }
 }
