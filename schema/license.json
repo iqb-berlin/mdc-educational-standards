@@ -1,0 +1,10 @@
+{
+    "$id": "https://example.com/license.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "License",
+    "description": "Usage license",
+    "type": "array",
+    "items": {
+        "type": "string"
+    }
+}

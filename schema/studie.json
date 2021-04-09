@@ -1,0 +1,246 @@
+{
+    "$id": "https://example.com/studie.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Studie",
+    "description": "Studie is a type of ressource",
+    "type": "object",
+    "properties": {
+        "Auftraggeber/Mittelgeber": {
+            "title": "Auftraggeber/Mittelgeber",
+            "description": "Auftraggeber/Mittelgeber der Studie",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Bundesministerium für Bildung und Forschung (BMBF)",
+                    "Deutsche Forschungsgemeinschaft (DFG)",
+                    "Kultusministerkonferenz (KMK)",
+                    "Senatsverwaltung für Bildung, Jugend und Sport des Landes Berlin",
+                    "Ministerium für Bildung, Wissenschaft, Jugend und Kultur des Landes Rheinland-Pfalz",
+                    "Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
+                    "Ministerium für Bildung, Jugend und Sport des Landes Brandenburg",
+                    "International Association for the Evaluation of Educational Achievement (IEA)",
+                    "Otto-Friedrich-Universität Bamberg",
+                    "Europäischer Sozialfonds (ESF)",
+                    "Europäische Union",
+                    "Träger Arbeit-Schule-Integrations-Gesellschaft e. V",
+                    "Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)",
+                    "Leibniz-Gemeinschaft",
+                    "Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)"
+                ]
+            }
+        },
+        "Region": {
+            "title": "Region",
+            "description": "Durchführungsort der Studie",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Deutschlandweit",
+                    "Baden-Württemberg",
+                    "Bayern",
+                    "Berlin",
+                    "Brandenburg",
+                    "Bremen",
+                    "Hamburg",
+                    "Hessen",
+                    "Mecklenburg-Vorpommern",
+                    "Niedersachsen",
+                    "Nordrhein-Westfalen",
+                    "Rheinland-Pfalz",
+                    "Saarland",
+                    "Sachsen",
+                    "Sachsen-Anhalt",
+                    "Schleswig-Holstein",
+                    "Thüringen"
+                ]
+            }
+        },
+        "Kontextfragebogen für": {
+            "title": "Kontextfragebogen für",
+            "description": "Analyseeinheit",
+            "type": "array",
+            "items" : {
+                "type": "string",
+                "enum": [
+                    "Auszubildende",
+                    "Behörden",
+                    "Berufsanfänger*innen",
+                    "Betriebe",
+                    "Eltern",
+                    "Erwachsene",
+                    "Hochschulabsolvent*innen",
+                    "Jugendliche",
+                    "Kindergartenkinder",
+                    "Lehrkräfte",
+                    "pädagogisches Personal",
+                    "Promotionsberechtigte",
+                    "Promovierende",
+                    "Referendar*innen",
+                    "Schüler*innen",
+                    "Schulabgänger*innen",
+                    "Schulen",
+                    "Schulleitung",
+                    "Studienzugangsberechtigte",
+                    "Studierende",
+                    "Vorschulkinder",
+                    "wissenschaftliches Personal",
+                    "Sonstiges"
+                ]
+            }
+        },
+        "Auswahlverfahren": {
+            "title": "Auswahlverfahren",
+            "description": "Liste der möglichen Auswahlverfahren",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Vollerhebung",
+                    "Wahrscheinlichkeitsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl",
+                    "Wahrscheinlichkeitsauswahl: Klumpenauswahl",
+                    "Wahrscheinlichkeitsauswahl: Einfache Klumpenauswahl",
+                    "Wahrscheinlichkeitsauswahl: Geschichtete Klumpenauswahl",
+                    "Wahrscheinlichkeitsauswahl: Mehrstufige Zufallsauswahl",
+                    "Nicht-Wahrscheinlichkeitsauswahl",
+                    "Nicht-Wahrscheinlichkeitsauswahl: Willkürliche Auswahl",
+                    "Nicht-Wahrscheinlichkeitsauswahl: Bewusste Auswahl",
+                    "Nicht-Wahrscheinlichkeitsauswahl: Quotenstichprobe",
+                    "Nicht-Wahrscheinlichkeitsauswahl: Respondenten-gesteuerte Auswahl",
+                    "Kombination aus Wahrscheinlichkeit- und Nicht-Wahrscheinlichkeitsauswahl",
+                    "Andere",
+                    "Keine Angabe"
+                ]
+            }
+        },
+        "Alternativtitel": {
+            "title": "Alternativtitel",
+            "type": "string"
+        },
+        "Studienbeginn": {
+            "title": "Studienbeginn",
+            "description": "Startzeitpunkt der Studie",
+            "type": "string",
+            "format": "date"
+        },
+        "Studienende": {
+            "title": "Studienende",
+            "description": "Endzeitpunkt der Studie",
+            "type": "string",
+            "format": "date"
+        },
+        "Verwandete Studien": {
+            "title": "Verwandte Studien",
+            "description": "Aufzählunh verwandter Studien",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "Bericht zur Studie": {
+            "title": "Bericht zur Studie",
+            "description": "Abschließender Bericht zur Studie",
+            "type": "string"
+        },
+        "Link zur Studie": {
+            "title": "Link zur Studie",
+            "description": "Projekt-Webseite",
+            "type": "string"
+        },
+        "Region sonstiges": {
+            "title": "Region sonstiges",
+            "description": "Freitextfeld für geografische Angaben",
+            "type": "string"
+        },
+        "Testpopulation": {
+            "title": "Testpopulation",
+            "description": "Angabe zur Grundgesamtheit",
+            "type": "string"
+        },
+        "Erhebungsdesign sonstiges": {
+            "title": "Erhebungsdesign sonstiges",
+            "description": "Freitextfeld für weitere Designs",
+            "type": "string"
+        },
+        "Anmerkungen": {
+            "title": "Anmerkungen",
+            "description": "Anmerkungen zur Studie",
+            "type": "string"
+        },
+        "Beschreibungstyp": {
+            "title": "Beschreibungstyp",
+            "description": "Typ der Studienbeschreibung",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "1 Zusammenfassung / Abstract",
+                    "2 Informationen zur Serie / SeriesInformation",
+                    "3 Inhaltsverzeichnis / TableOfContents",
+                    "4 Methoden / Methods",
+                    "5 Sonstiges / Others"
+                ]
+            }
+        },
+        "Erfasste Kompetenzen": {
+            "title": "Erfasste Kompetenzen",
+            "description": "Für die Anzeige auf Webseite",
+            "type": "string"
+        },
+        "Stichprobe": {
+            "title": "Stichprobe",
+            "description": "Stichprobe der Primärerhebung",
+            "type": "string"
+        },
+        "Erhebungsdesign (Time Method)": {
+            "title": "Erhebungsdesign (Time Method)",
+            "description": "Spezielles Untersuchungsdesign",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Längsschnitt",
+                    "Längsschnitt: Kohorten",
+                    "Längsschnitt Trend/Wiederholter Querschnitt",
+                    "Längsschnitt: Panel",
+                    "Zeitreihen",
+                    "Querschnitt",
+                    "Andere"
+                ]
+            }
+        },
+        "Forschungsdesign (Research Design)": {
+            "title": "Forschungsdesign (Research Design)",
+            "description": "Verwendetes Forschungsdesign",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Experimentelles Design",
+                    "Quasi-Experimentelles Design",
+                    "Beobachtungsdesign",
+                    "Fallstudie",
+                    "Andere"
+                ]
+            }
+        },
+        "Dokumentation": {
+            "title": "Dokumentation",
+            "description": "Dokumentation zur Studie",
+            "type": "string"
+        }
+    },
+    "required": [
+        "Studienbeginn",
+        "Studienende",
+        "Testpopulation",
+        "Stichprobe"
+    ]
+    
+}

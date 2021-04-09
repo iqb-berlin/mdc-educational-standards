@@ -1,0 +1,10 @@
+{
+    "$id": "https://example.com/description.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Description",
+    "description": "Description of a ressource",
+    "type": "array",
+    "items": {
+        "type": "string"
+    }
+}
