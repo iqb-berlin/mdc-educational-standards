@@ -1,6 +1,6 @@
 {
     "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Studie",
     "description": "Studie is a type of ressource",
     "type": "object",

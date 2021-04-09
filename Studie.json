@@ -1,6 +1,6 @@
 {
     "$id": "https://example.com/schema.json",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Metadaten Profil Studie",
     "description": "JSON Schema für Fall Studie im Kontext des IQB",
     "type": "object",
