@@ -1,0 +1,74 @@
+
+{
+    "$id": "https://example./schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Metadaten Profil Studie",
+    "description": "JSON Schema für Fall Studie im Kontext des IQB",
+    "type": "object",
+    "properties": {
+        "Allgemeine Informationen": {
+            "title": "Allgemeine Informationen",
+            "description": "Enthält allgemeine Informationen über die Ressource",
+            "type": "object",
+            "properties": {
+                "Label": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/label.json"
+                    },
+                "Description": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/description.json"
+                    },
+                "Owner": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/owner.json"
+                },
+                "License": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/license.json"
+                }
+            },
+            "required": [
+                "Label",
+                "Owner"
+            ]
+        },
+        "Metadaten Definitionen": {
+            "title": "Metadaten Definitionen",
+            "description": "Contains the metadata definitions",
+            "type": "object",
+            "properties": {
+                "Art der Metadaten": {
+                    "title": "Art der zu verwendenden Metadaten",
+                    "description": "Es beschreibt mit welchen Metadaten man eine Ressource versehen möchte",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Studie",
+                            "Erhebung"
+                        ]
+                    }
+                },
+                "Studie": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
+                }
+            },
+            "if": {
+                "properties": {
+                    "Art der Metadaten": {
+                        "items": {
+                            "const": ["Erhebung"]
+                        }
+                    }
+                }
+            },
+            "then": {
+                "properties": {
+                    "Erhebung": {
+                        "title": "Erhebung",
+                        "description": "Erhebung",
+                        "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/erhebung.json"
+                    }
+                }
+            }
+        }
+    }
+
+}

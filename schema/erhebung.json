@@ -1,0 +1,75 @@
+{
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/erhebung.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Erhebung",
+    "description": "Erhebungsart",
+    "type": "object",
+    "properties": {
+        "Datentyp": {
+            "title": "Datentyp",
+            "description": "Datentypen der Erhebung",
+            "type" : "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Umfragedaten",
+                    "Daten aus Kompetenz- und Leistungsmessungen",
+                    "Qualitatives Datenmaterial",
+                    "Anderweitige Datentypen"
+                ]
+            }
+        },
+        "Erhebungsbeginn": {
+            "title": "Erhebungsbeginn",
+            "description": "Beginn der Erhebung",
+            "type": "string",
+            "format": "date",
+            "_display": "DD-MM-YYYY"
+        },
+        "Erhebungsende": {
+            "title": "Erhebungsende",
+            "description": "Ende der Erhebung",
+            "type": "string",
+            "format": "date",
+            "_display": "DD-MM-YYYY"
+        },
+        "Verknüpfungsvariable": {
+            "title": "Verknüpfungsvariable",
+            "description": "Verknüfungsvariable",
+            "type": "string",
+            "_display": {
+                "rows": 5
+            }
+        },
+        "Datenformat": {
+            "title": "Datenformat",
+            "description": "Datenformat der Erhebung. Für da|ra Export relevant",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Sammlung",
+                    "Datensatz",
+                    "Text",
+                    "Software",
+                    "Bild",
+                    "Audiovisuell",
+                    "Interaktive Ressource",
+                    "Event",
+                    "Modell",
+                    "Physikalisches Objekt",
+                    "Service",
+                    "Sound",
+                    "Workflow",
+                    "Data Paper",
+                    "Andere"
+                ]
+            }
+        },
+        "Erhebungszeitraum sonstiges": {
+            "title": "Erhebungszeitraum sonstiges",
+            "description": "Die Eigenschaft wird verwendet wenn nur die Jahreszahl bekannt ist.",
+            "type": "string"
+        }
+    }
+}
