@@ -46,7 +46,7 @@
                             "id": {
                               "type": "string",
                               "enum": [
-                                "https://w3id.org/kim/hochschulfaechersystematik/scheme"
+                                "https://w3id.org/iqb/mdc-core/cs_002/"
                               ]
                             }
                           }
