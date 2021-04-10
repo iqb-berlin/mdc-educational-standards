@@ -34,9 +34,27 @@
             "description": "Contains the metadata definitions",
             "type": "object",
             "properties": {
-                "Art der Metadaten": {
-                    "ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/bereich.json"
-                },
+                "about": {
+                    "title": "Subject",
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "inScheme": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "enum": [
+                                "https://w3id.org/kim/hochschulfaechersystematik/scheme"
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      "_widget": "SkohubLookup"
+                    }
+                  },
                 "Studie": {
                     "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
                 }
