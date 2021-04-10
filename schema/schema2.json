@@ -46,7 +46,7 @@
                             "id": {
                               "type": "string",
                               "enum": [
-                                "https://w3id.org/iqb/mdc-core/cs_002/001"
+                                "https://w3id.org/iqb/mdc-core/cs_002"
                               ]
                             }
                           }
