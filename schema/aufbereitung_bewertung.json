@@ -8,106 +8,46 @@
         "Bewertung Inhaltlicher Scope": {
             "title": "Bewertung Inhaltlicher Scope",
             "description": "Beschreibt die Bewertung des Inhalts",
-            "type": "array",
-            "items":[
-                {            
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "enum":[
-                                "A",
-                                "B",
-                                "C",
-                                "D"
-                            ]
-                        },
-                        {
-                            "type": "number"
-                        }
-                    ]
-                }   
-            ],
-            "_display": {
-                "placeholder": "Choose between A to D or write a number"
-            }
+            "type": "string",
+            "enum":[
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
         },
         "Bewertung Rechtliche Anforderungen": {
             "title": "Bewertung Rechtliche Anforderungen",
             "description": "Beschreibt die Bewertung der rechtlichen Anforderung",
-            "type": "array",
-            "items":[
-                {            
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "enum":[
-                                "A",
-                                "B",
-                                "C",
-                                "D"
-                            ]
-                        },
-                        {
-                            "type": "number"
-                        }
-                    ]
-                }   
-            ],
-            "_display": {
-                "placeholder": "Choose between A to D or write a number"
-            }
+            "type": "string",
+            "enum":[
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
         },
         "Bewertung Technische Anforderungen": {
             "title": "Bewertung Technische Anforderungen",
             "description": "Beschreibt die Bewertung der technischen Anforderung",
-            "type": "array",
-            "items":[
-                {            
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "enum":[
-                                "A",
-                                "B",
-                                "C",
-                                "D"
-                            ]
-                        },
-                        {
-                            "type": "number"
-                        }
-                    ]
-                }   
-            ],
-            "_display": {
-                "placeholder": "Choose between A to D or write a number"
-            }
+            "type": "string",
+            "enum":[
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
         },
         "Bewertung Dokumentarische Anforderungen": {
             "title": "Bewertung Dokumentarische Anforderungen",
             "description": "Beschreibt die Bewertung der dokumentarischen Anforderung",
-            "type": "array",
-            "items":[
-                {            
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "enum":[
-                                "A",
-                                "B",
-                                "C",
-                                "D"
-                            ]
-                        },
-                        {
-                            "type": "number"
-                        }
-                    ]
-                }   
-            ],
-            "_display": {
-                "placeholder": "Choose between A to D or write a number"
-            }
+            "type": "string",
+            "enum":[
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
         },
         "Bewertung gesamt": {
             "title": "Bewertung gesamt",
