@@ -34,8 +34,8 @@
             "description": "Contains the metadata definitions",
             "type": "object",
             "properties": {
-                "Studie": {
-                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
+                "Aufbereitung/Bewertung": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json"
                 }
             },
             "required": [

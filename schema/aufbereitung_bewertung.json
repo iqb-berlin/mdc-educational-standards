@@ -1,0 +1,238 @@
+{
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Aufbereitung/Bewertung",
+    "description": "Beschreibt wie eine Ressource aufbereitete bzw. bewertet werden soll",
+    "type": "object",
+    "properties": {
+        "Bewertung Inhaltlicher Scope": {
+            "title": "Bewertung Inhaltlicher Scope",
+            "description": "Beschreibt die Bewertung des Inhalts",
+            "type": "array",
+            "items":[
+                {            
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "enum":[
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ]
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }   
+            ],
+            "_display": {
+                "placeholder": "Choose between A to D or write a number"
+            }
+        },
+        "Bewertung Rechtliche Anforderungen": {
+            "title": "Bewertung Rechtliche Anforderungen",
+            "description": "Beschreibt die Bewertung der rechtlichen Anforderung",
+            "type": "array",
+            "items":[
+                {            
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "enum":[
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ]
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }   
+            ],
+            "_display": {
+                "placeholder": "Choose between A to D or write a number"
+            }
+        },
+        "Bewertung Technische Anforderungen": {
+            "title": "Bewertung Technische Anforderungen",
+            "description": "Beschreibt die Bewertung der technischen Anforderung",
+            "type": "array",
+            "items":[
+                {            
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "enum":[
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ]
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }   
+            ],
+            "_display": {
+                "placeholder": "Choose between A to D or write a number"
+            }
+        },
+        "Bewertung Dokumentarische Anforderungen": {
+            "title": "Bewertung Dokumentarische Anforderungen",
+            "description": "Beschreibt die Bewertung der dokumentarischen Anforderung",
+            "type": "array",
+            "items":[
+                {            
+                    "anyOf": [
+                        {
+                            "type": "string",
+                            "enum":[
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ]
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }   
+            ],
+            "_display": {
+                "placeholder": "Choose between A to D or write a number"
+            }
+        },
+        "Bewertung gesamt": {
+            "title": "Bewertung gesamt",
+            "description": "Die Gesamtbewertung",
+            "type": "string",
+            "_display": {
+                "rows": 5
+            }
+        },
+        "Dokumentar: Dokumentation": {
+            "title": "Dokumentar: Dokumentation",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "Dokumentar: Bereitstellung der Daten": {
+            "title": "Dokumentar: Bereitstellung der Daten",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "Dokumentar: Eingangskontrolle": {
+            "title": "Dokumentar: Eingangskontrolle",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "Dokumentar: Aufbereitung der Daten": {
+            "title": "Dokumentar: Aufbereitung der Daten",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "Dokumentar: Vertragliches (inkl. Komm. mit DG": {
+            "title": "Dokumentar: Vertragliches (inkl. Komm. mit DG",
+            "description": "beinhaltet auch die Kommunikation mit dem DG",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "wiMi: Eingangskontrolle": {
+            "title": "wiMi: Eingangskontrolle",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "wiMi: Vertragliches": {
+            "title": "wiMi: Vertragliches",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "wiMi: Aufbereitung der Daten": {
+            "title": "wiMi: Aufbereitung der Daten",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "wiMi: Bereitstellung der Daten": {
+            "title": "wiMi: Bereitstellung der Daten",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "wiMi: Dokumentation": {
+            "title": "wiMi: Dokumentation",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "SHKs: Eingangskontrolle": {
+            "title": "SHKs: Eingangskontrolle",
+            "description": "BBN und Nachnutzungswürdigkeit bewerten",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "SHKs: Aufbereitung der Daten": {
+            "title": "SHKs: Eingangskontrolle",
+            "description": "Feinprüfung, Konstrukterstellung, Vorarbeit für Dok. zur Datenaufbereitung, Syntax",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "SHKs: Dokumentation": {
+            "title": "SHKs: Dokumentation",
+            "description": "FDZ-StudienDB und da I ra-MDS befüllen",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        },
+        "DM-Beratung": {
+            "title": "wiMi: Bereitstellung der Daten",
+            "description": "Beratung zu Datenmanagement(plänen), EVEs und dergl. (vor Datenabgabe/-übermittlung)",
+            "type": "integer",
+            "minimum": 0,
+            "_display": {
+                "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
+            }
+        }
+    }
+}
