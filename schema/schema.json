@@ -71,7 +71,7 @@
                                 "id": {
                                     "type": "string",
                                     "enum": [
-                                        "https://iqb-berlin.github.io/mdc-core/w3id.org/iqb/mdc-core/cs_002/index"
+                                        "https://w3id.org/iqb/mdc-core/cs_002/"
                                     ]
                                 }
                             }
