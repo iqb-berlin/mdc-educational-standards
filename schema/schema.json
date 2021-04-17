@@ -34,8 +34,8 @@
             "description": "Contains the metadata definitions",
             "type": "object",
             "properties": {
-                "Aufbereitung/Bewertung": {
-                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json"
+                "Studie": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
                 },
                 "about": {
                     "title": "Subject",
@@ -60,7 +60,7 @@
                     
                 },
                 "about2": {
-                    "title": "Subject",
+                    "title": "Gültigkeitsbereich",
                     "type": "array",
                     "items": {
                         "type": "object",
