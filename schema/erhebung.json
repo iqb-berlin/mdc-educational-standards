@@ -17,7 +17,8 @@
                     "Qualitatives Datenmaterial",
                     "Anderweitige Datentypen"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Erhebungsbeginn": {
             "title": "Erhebungsbeginn",
@@ -64,12 +65,16 @@
                     "Data Paper",
                     "Andere"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Erhebungszeitraum sonstiges": {
             "title": "Erhebungszeitraum sonstiges",
             "description": "Die Eigenschaft wird verwendet wenn nur die Jahreszahl bekannt ist.",
-            "type": "string"
+            "type": "string",
+            "_display": {
+                "placeholder": "Diese Eigenschaft wird verwendet, wenn nur die Jahreszahl bekannt ist"
+            }
         }
     }
 }

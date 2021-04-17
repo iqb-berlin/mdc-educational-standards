@@ -28,7 +28,8 @@
                     "Leibniz-Gemeinschaft",
                     "Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Region": {
             "title": "Region",
@@ -55,7 +56,8 @@
                     "Schleswig-Holstein",
                     "Thüringen"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Kontextfragebogen für": {
             "title": "Kontextfragebogen für",
@@ -88,7 +90,8 @@
                     "wissenschaftliches Personal",
                     "Sonstiges"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Auswahlverfahren": {
             "title": "Auswahlverfahren",
@@ -117,7 +120,8 @@
                     "Andere",
                     "Keine Angabe"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Alternativtitel": {
             "title": "Alternativtitel",
@@ -223,7 +227,8 @@
                     "Querschnitt",
                     "Andere"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Forschungsdesign (Research Design)": {
             "title": "Forschungsdesign (Research Design)",
@@ -238,7 +243,8 @@
                     "Fallstudie",
                     "Andere"
                 ]
-            }
+            },
+            "uniqueItems": true
         },
         "Dokumentation": {
             "title": "Dokumentation",

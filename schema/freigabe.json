@@ -1,0 +1,12 @@
+{
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/freigabe.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Freigabe",
+    "description": "Disclosure of a ressource",
+    "type": "object",
+    "properties": {
+        "Verfügbarkeit": {
+            
+        }
+    }
+}
