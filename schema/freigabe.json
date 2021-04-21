@@ -6,7 +6,138 @@
     "type": "object",
     "properties": {
         "Verfügbarkeit": {
-            
+            "title": "Verfügbarkeit",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "SUF: Lieferbar für Re- und Sekundäranalysen",
+                    "SUF: Lieferbar nur noch für Reanalysen",
+                    "SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag",
+                    "CF: Downloadbar",
+                    "CF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag",
+                    "Nicht verfügbar"
+                ]
+            },
+            "uniqueItems": true
+        },
+        "Archivierende Einrichtung": {
+            "title": "Archivierende Einrichtung",
+            "type": "string"
+        },
+        "verfügbar seit": {
+            "title": "verfügbar seit",
+            "description": "Veröffentlichungsdatum: seit wann sind die Daten zur Nachnutzung bereitgestellt; auf Website MM/JJJJ",
+            "type": "string",
+            "format": "date"
+        },
+        "Rechte Metadaten": {
+            "title": "Rechte Metadaten",
+            "description": "ASngaben zu den Rechten an den / für die Metadaten",
+            "type": "string",
+            "_display": {
+                "rows": 3
+            }
+        },
+        "Sperrfrist - Datum": {
+            "title": "Sperrfrist - Datum",
+            "description": "Bis zu diesem Datum für dürfen die Daten nicht bereitgestellt werden",
+            "type": "string",
+            "format": "date"
+        },
+        "Sperrvermerk/e": {
+            "title": "Sperrvermerk/e",
+            "description": "Bei Ja Häckchen setzen",
+            "type": "boolean"
+        },
+        "Beiteilung Dategeber": {
+            "title": "Beteiligung Datengeber",
+            "type": "string",
+            "enum": [
+                "nicht beteiligt",
+                "Meldepflicht",
+                "Vetorecht"
+            ]
+        },
+        "Datenrestriktion": {
+            "title": "Datenrestriktion",
+            "description": "auf gesamten Datensatzbezoge; keine zeitliche Komponente",
+            "type": "string"
+        },
+        "Sperrvermerk/e - Erläuterung": {
+            "title": "Sperrvermerk/e Erläuterung",
+            "description": "für Angaben zu Sperrvermerken bei Variablen, hier geht es um zeitliche Komponente, inhaltlich",
+            "type": "string",
+            "_display": {
+                "rows": 2
+            }
+        },
+        "Bermerkungen": {
+            "title": "Bemerkungen",
+            "type": "string",
+            "_display": {
+                "rows": 2
+            }
+        },
+        "Zitationsvorschlag": {
+            "title": "Zitationsvorschlag",
+            "description": "des Datenpakets",
+            "type": "string",
+            "_display": {
+                "rows": 5
+            }
+        },
+        "Auflagen": {
+            "title": "Auflagen",
+            "description": "Auflagen die vom DG kommen",
+            "type": "string",
+            "_display": {
+                "rows": 2
+            }
+        },
+        "Sperrfrist": {
+            "title": "Sperrfrist",
+            "type": "boolean"
+        },
+        "Stand Literaturverzeichnis IQB-Studien-Website": {
+            "title": "Stand Literatirverzeichnis IQB-Studien-Webseite",
+            "description": "Stand der Publikationsliste auf der Webseite",
+            "type": "string",
+            "format": "date"
+        },
+        "Stand Literaturverzeichnis citavi": {
+            "title": "Stand Literaturverzeichnis citavi",
+            "type": "string",
+            "format": "date"
+        },
+        "Bildungsmonitoringstudie": {
+            "title": "Bildungsmonitoriungstudie",
+            "type": "boolean"
+        },
+        "ReadME IZA": {
+            "title": "ReadMe IZA",
+            "description": "hier sind alle Materialien aufgelistet",
+            "type": "string",
+            "_display": {
+                "rows": 5
+            }
+        },
+        "ReadMe SUF": {
+            "title": "ReadME SUF",
+            "description": "hier sind alle Materialien aufgelistet",
+            "type": "string",
+            "_display": {
+                "rows": 5
+            }
+        },
+        "Kontaktperson": {
+            "title": "Kontaktperson",
+            "type": "string"
+        },
+        "Regionalkennziffern im Datensatz enthalten": {
+            "title": "Regionalkennziffern im Datensatz enthalten",
+            "type": "boolean"
         }
+        
     }
 }
