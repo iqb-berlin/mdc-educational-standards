@@ -1,0 +1,102 @@
+{
+    "$id": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/instrument.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Instrument",
+    "description": "Used instruments of a ressource",
+    "type": "object",
+    "properties": {
+        "Erhebungsverfahren": {
+            "title": "Erhebungsverfahren",
+            "description": "https://mdr.iqb.hu-berlin.de/#/catalog/a1fb802d-6075-d123-1f26-6eb9f20d998",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Interview",
+                    "Interview: Persönliches Interview",
+                    "Interview: Persönliches Interview: CAPI (Computer Unterstützte persönliche Befragung",
+                    "Interview: Pesönliches Interview: PAPI (Papierfragebogen)",
+                    "Interview: Telefonisches Interview",
+                    "Interview: Telefonisches Inerview : CATI (Computerunterstüzte telefonische Befragung",
+                    "Interview: E-Mail Interview",
+                    "Interview: Web-basiertes Interview",
+                    "Eigenständig auszufüllender Fragebogen",
+                    "Eigenständig auszufüllinder Fragebogen: E-mail",
+                    "Eigenständig auszufüllinder Fragebogen: Papier",
+                    "Eigenständig auszufüllinder Fragebogen: SMS/MMS",
+                    "Eigenständig auszufüllinder Fragebogen: CAWI (Computergestütztes Web-Interview",
+                    "Eigenständig auszufüllinder Fragebogen: CASI (Computergestütze Selbstbefragung",
+                    "Fokusgruppe",
+                    "Eigenständig durchgeführte schriftliche Aufzeichnung und/oder Tagebücher",
+                    "Beobachtung",
+                    "Beobachtung: Feldbeobachtung",
+                    "Beobachtung: Feldbeobachtung (Teilnehmend)",
+                    "Beobachtung: Feldbeobachtung (Nicht-teilnehmend)",
+                    "Beobachtung: Laborbeobachtung",
+                    "Beobachtung: Laborbeobachhtung (Teilnehmend)",
+                    "Beobachtung; Laborbeobachtung (Nicht Teilnehmend)",
+                    "Beobachtung: Computerbasierte Beobachtung",
+                    "Messungen und Tests",
+                    "Messungen und Tests: Leistungs- und Kompetenztests",
+                    "Messungen und Tests: Leistungs- und Kompetenztests - Pper and Pencil Test",
+                    "Messungen und Tests: Leistungs- und Kompetenztests - Computerbasierter Test",
+                    "Messungen und Tests: Physische Tests",
+                    "Messungen und Tests: Psychologische Tests",
+                    "Messungen und Tests: Psychologische Tests - Paper and Pencil Test",
+                    "Messungen und Tests: Psychologische Tests - Computerbasierter Test",
+                    "Inhaltskodierung",
+                    "Transkription",
+                    "Kompilation",
+                    "Synthese",
+                    "Zusammenfassung",
+                    "Aggregation",
+                    "Simulation",
+                    "Sonstiges"
+                ]
+            },
+            "uniqueItems": true
+        },
+        "Erhebungseinheit": {
+            "title": "Erhebungseinheit",
+            "type": "string",
+            "enum": [
+                "Auszubildende",
+                "Behörden",
+                "Berufsanfänger*innen",
+                "Betriebe",
+                "Eltern",
+                "Erwachsene",
+                "Hochschulabsolvent*innen",
+                "Jugendliche",
+                "Kinderkartenkinder",
+                "Lehrkräfte",
+                "pädagogisches Personal",
+                "Promotionsberechtigte",
+                "Promovierende",
+                "Referendar*innen",
+                "Schüler*innen",
+                "Schulabgänger*innen",
+                "Schulen",
+                "Schulleitung",
+                "Studienzugangsberechtigte",
+                "Studierende",
+                "Vorschulkinder",
+                "wissenschaftliches Personal",
+                "Sonstiges"
+            ]
+        },
+        "Datensatzname": {
+            "title": "Datensatzname",
+            "description": "In welchem Datensatz befindet sich das Instrument",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "Erhebungsverfahren",
+        "Erhebungseinheit",
+        "Datensatzname"
+    ]
+}

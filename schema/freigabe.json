@@ -137,7 +137,57 @@
         "Regionalkennziffern im Datensatz enthalten": {
             "title": "Regionalkennziffern im Datensatz enthalten",
             "type": "boolean"
+        },
+        "Anmerkung zu Regionaldaten": {
+            "title": "Anmerkung zu Regionaldaten",
+            "description": "Beschreibung",
+            "type": "string",
+            "_display": {
+                "rows": 4
+            }
+
+        },
+        "öffentlich auf Website IQB": {
+            "title": "öffentlich auf Website IQB",
+            "description": "Dateibezeichnung aufführen",
+            "type": "string"
+        },
+        "Auslieferung nach Antragstellung": {
+            "title": "Auslieferung nach Antragstellung",
+            "description": "Dateibezeichnung aufführen",
+            "type": "string"
+        },
+        "Auslieferung auf Anfrage": {
+            "title": "Auslieferung auf Anfrage",
+            "description": "Dateibezeichung aufführen",
+            "type": "string"
+        },
+        "Nicht öffentlich verfügbar": {
+            "title": "Nicht öffentlich verfügbar",
+            "description": "Dateibezeichnung aufführen",
+            "type": "string"
+        },
+        "Neuartiger Ländervergleich möglich": {
+            "title": "Neuartiger Ländervergleich möglich",
+            "description": "Mit diesen Daten ist ein neuartiger Ländervergleich möglich",
+            "type": "boolean"
+        },
+        "Neuartiger Ländervergleich - Erläuterung": {
+            "title": "Neuartiger Ländervergleich - Erläuterung",
+            "type": "string",
+            "_display": {
+                "rows": 3
+            }
+        },
+        "AIP in d. LZA d. CMS gegeben":{
+            "title": "AIP in d. LZA d. CMS gegeben",
+            "description": "Archival Information Package(AIP) in die Langzeitarchivierung(LZA) des CMS gegeben",
+            "type": "string",
+            "format": "date"
+        },
+        "ID des AIP": {
+            "title": "ID des AIP",
+            "type": "string"
         }
-        
     }
 }

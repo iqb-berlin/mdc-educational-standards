@@ -174,5 +174,12 @@
                 "placeholder": "Minimum Value is 0. This value will be interpreted as time (mm:ss)"
             }
         }
-    }
+    },
+    "required": [
+        "Bewertung: Inhaltlicher Scope",
+        "Bewertung: Rechtliche Anforderungen",
+        "Bewertung: Technische Anforderungen",
+        "Bewertung: Dokumentarische Anforderungen",
+        "Bewertung gesamt"
+    ]
 }

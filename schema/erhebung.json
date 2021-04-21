@@ -75,6 +75,17 @@
             "_display": {
                 "placeholder": "Diese Eigenschaft wird verwendet, wenn nur die Jahreszahl bekannt ist"
             }
+        },
+        "Anmerkungen": {
+            "title": "Anmerkungen",
+            "type": "string"
         }
-    }
+    },
+    "required": [
+        "Datentyp",
+        "Erhebungsbeginn",
+        "Erhebungsende",
+        "Verknüpfungsvariable",
+        "Datenformat"
+    ]
 }

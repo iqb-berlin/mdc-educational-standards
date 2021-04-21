@@ -37,56 +37,19 @@
                 "Studie": {
                     "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
                 },
-                "about": {
-                    "title": "Subject",
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                        "inScheme": {
-                            "type": "object",
-                            "properties": {
-                                "id": {
-                                    "type": "string",
-                                    "enum": [
-                                        "https://w3id.org/kim/hochschulfaechersystematik/scheme"
-                                    ]
-                                }
-                            }
-                        }
-                        },
-                    "_widget": "SkohubLookup"
-                    }
-                    
+                "Erhebung": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/erhebung.json"
                 },
-                "about2": {
-                    "title": "Gültigkeitsbereich",
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                        "inScheme": {
-                            "type": "object",
-                            "properties": {
-                                "id": {
-                                    "type": "string",
-                                    "enum": [
-                                        "https://w3id.org/iqb/mdc-core/cs_002/index.json"
-                                    ]
-                                }
-                            }
-                        }
-                        },
-                    "_widget": "SkohubLookup"
-                    }
+                "Freigabe": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/freigabe.json"
+                },
+                "Instrument": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/instrument.json"
+                },
+                "Aufbereitung/Bewertung": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json"
                 }
-            },
-            "required": [
-                "Studienbeginn",
-                "Studienende",
-                "Testpopulation",
-                "Stichprobe"
-            ]
+            }
         }
     }
 
