@@ -33,45 +33,24 @@
             "title": "Metadaten Definitionen",
             "description": "Contains the metadata definitions",
             "type": "object",
-            "anyOf": [
-                {
-                    "properties": {
-                        "Studie": {
-                            "Studie": {
-                                "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
-                            }
-                        }   
-                    },
-                    "properties": {
-                        "Erhebung": {
-                            "Erhebung": {
-                                "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/erhebung.json"
-                            }
-                        }  
-                    },
-                    "properties": {
-                        "Freigabe": {
-                            "Freigabe": {
-                                "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/freigabe.json"
-                            }
-                        }   
-                    },
-                    "properties": {
-                        "Instrument": {
-                            "Instrument": {
-                                "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/instrument.json"
-                            }
-                        }   
-                    },
-                    "properties": {
-                        "Aufbereitung/Bewertung": {
-                            "Aufbereitung/Bewertung": {
-                                "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json"
-                            }
-                        }   
-                    }
+            "properties": {
+                "Studie": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/studie.json"
+                },
+                "Erhebung": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/erhebung.json"
+                },
+                "Freigabe": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/freigabe.json"
+                },
+                "Instrument": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/instrument.json"
+                },
+                "Aufbereitung/Bewertung": {
+                    "$ref": "https://raw.githubusercontent.com/iqb-berlin/mdc-educational-standards/master/schema/aufbereitung_bewertung.json"
                 }
-            ]
+            }
         }
     }
+
 }
